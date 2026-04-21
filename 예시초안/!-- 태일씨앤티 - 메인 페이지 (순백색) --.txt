@@ -1,0 +1,2769 @@
+<!-- 태일씨앤티 - 메인 페이지 (순백색) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Taeil C&amp;T | Innovation &amp; Engineering Excellence</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;family=Be+Vietnam+Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#00210b",
+                    "primary-container": "#028943",
+                    "inverse-primary": "#6fdc8c",
+                    "surface-bright": "#f5fbf1",
+                    "outline-variant": "#bdcabc",
+                    "on-surface-variant": "#3e4a3f",
+                    "on-primary-fixed": "#00210b",
+                    "tertiary-fixed-dim": "#ffb599",
+                    "on-tertiary-fixed-variant": "#6d3822",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-highest": "#dee4db",
+                    "surface-variant": "#dee4db",
+                    "primary-fixed-dim": "#6fdc8c",
+                    "inverse-surface": "#2b322c",
+                    "on-background": "#171d17",
+                    "surface-container-low": "#eff6ec",
+                    "secondary-container": "#bfebc3",
+                    "secondary": "#406748",
+                    "primary": "#006d34",
+                    "secondary-fixed": "#c1edc6",
+                    "on-secondary": "#ffffff",
+                    "surface-dim": "#d5dcd2",
+                    "on-secondary-fixed-variant": "#284f32",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#0f0200",
+                    "on-primary-container": "#ffffff",
+                    "surface-container": "#e9f0e6",
+                    "tertiary": "#894f37",
+                    "outline": "#6e7a6e",
+                    "on-primary-fixed-variant": "#005226",
+                    "tertiary-fixed": "#ffdbce",
+                    "on-tertiary-fixed": "#370e00",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#ecf3e9",
+                    "on-secondary-container": "#446b4c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#a7674d",
+                    "surface": "#f5fbf1",
+                    "secondary-fixed-dim": "#a6d1ab",
+                    "background": "#f5fbf1",
+                    "surface-tint": "#006d34",
+                    "surface-container-high": "#e3eae0",
+                    "on-surface": "#171d17",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#8bfaa6"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Lexend"],
+                    "body": ["Inter"],
+                    "label": ["Be Vietnam Pro"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { background-color: #FFFFFF; }
+    </style>
+</head>
+<body class="font-body text-on-background selection:bg-primary-container selection:text-white">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white border-b border-slate-100 shadow-sm">
+<div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+<div class="text-2xl font-black text-slate-900 font-headline tracking-tight">
+                Taeil C&amp;T
+            </div>
+<div class="hidden lg:flex items-center space-x-8">
+<a class="text-green-600 font-bold border-b-2 border-green-500 pb-1 font-lexend tracking-tight duration-300 ease-in-out" href="#">Company Intro</a>
+<a class="text-slate-600 font-medium hover:text-green-500 transition-colors font-lexend tracking-tight duration-300 ease-in-out" href="#">Business Performance</a>
+<a class="text-slate-600 font-medium hover:text-green-500 transition-colors font-lexend tracking-tight duration-300 ease-in-out" href="#">Tech Innovation</a>
+<a class="text-slate-600 font-medium hover:text-green-500 transition-colors font-lexend tracking-tight duration-300 ease-in-out" href="#">PR Center</a>
+<a class="text-slate-600 font-medium hover:text-green-500 transition-colors font-lexend tracking-tight duration-300 ease-in-out" href="#">Careers</a>
+<a class="text-slate-600 font-medium hover:text-green-500 transition-colors font-lexend tracking-tight duration-300 ease-in-out" href="#">ESG Management</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-slate-600 hover:text-primary transition-colors">search</button>
+<button class="bg-primary text-on-primary px-5 py-2.5 font-label font-bold text-sm tracking-wide rounded-lg hover:bg-primary-container transition-all">
+                    Contact Us
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative h-[870px] min-h-[600px] flex items-center overflow-hidden bg-slate-900">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-60" data-alt="Cinematic wide shot of a modern glass skyscraper and architectural complex under a clear blue sky with sharp morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-zyGdFo9YwtwU9YLbQyKVocNt2Ra7Q3wVIHRwRY9hGwSQjuzyzicVjd9N1yBbAxKnap3AyXDtbNNaz2VLnzCmlnrdFu5hObUjZe4NrAZItG9bkwNYv81BH9ooLZETJ6gc-Io3NQfMxx7WWC4Dvf7s0eSy8XNh60GFnOIsdvoaYhOf3GPS3mgviUM-YCFldPeVv2uX9RRvHfx-IyKouPJ1zgOy1bSwMvFUii8nMR-c1ylyEDLcIKgcTLDSGetRe8Z-XxEGC5LEWEeK"/>
+<div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+<div class="max-w-2xl">
+<span class="inline-block py-1 px-3 bg-primary text-white text-[10px] font-bold tracking-widest uppercase mb-6 rounded-sm">Global Engineering Leader</span>
+<h1 class="text-5xl md:text-7xl font-headline font-black text-white leading-[1.1] mb-8 tracking-tighter">
+                        Engineering a <br/><span class="text-primary-fixed">Sustainable</span> Future.
+                    </h1>
+<p class="text-lg text-slate-300 font-body mb-10 leading-relaxed max-w-lg">
+                        Taeil C&amp;T delivers world-class construction and engineering solutions, combining technical innovation with uncompromising integrity.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="px-8 py-4 bg-primary text-on-primary font-bold rounded-lg hover:bg-primary-container transition-all flex items-center gap-2">
+                            Explore Projects
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="px-8 py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 font-bold rounded-lg hover:bg-white/20 transition-all">
+                            Company Profile
+                        </button>
+</div>
+</div>
+</div>
+<!-- Value Metrics Grid Overlay -->
+<div class="absolute bottom-0 left-0 w-full bg-white/5 backdrop-blur-xl border-t border-white/10 py-8 hidden md:block">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-4 gap-12">
+<div class="flex flex-col">
+<span class="text-primary-fixed text-3xl font-black font-headline">35+</span>
+<span class="text-slate-400 text-xs font-label uppercase tracking-widest mt-1">Years of Excellence</span>
+</div>
+<div class="flex flex-col">
+<span class="text-primary-fixed text-3xl font-black font-headline">1.2K</span>
+<span class="text-slate-400 text-xs font-label uppercase tracking-widest mt-1">Global Projects</span>
+</div>
+<div class="flex flex-col">
+<span class="text-primary-fixed text-3xl font-black font-headline">24</span>
+<span class="text-slate-400 text-xs font-label uppercase tracking-widest mt-1">Patent Technologies</span>
+</div>
+<div class="flex flex-col">
+<span class="text-primary-fixed text-3xl font-black font-headline">98%</span>
+<span class="text-slate-400 text-xs font-label uppercase tracking-widest mt-1">Safety Rating</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Highlights - Bento Grid -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="text-slate-900 font-headline font-extrabold text-4xl mb-4">Core Competencies</h2>
+<p class="text-slate-500 font-body text-lg">Pioneering tomorrow's infrastructure with precision and advanced digital integration.</p>
+</div>
+<a class="text-primary font-bold font-label flex items-center gap-2 group" href="#">
+                        View All Business Areas
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-6 h-[800px] md:h-[600px]">
+<!-- Large Feature -->
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-xl bg-slate-100">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Interior view of a massive modern structural steel frame during construction with workers in safety gear" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdxTA3eLNBlNUdRa1D1dwAXxK9xQiCzdP4PJZDR3HLNyB9i2WA0Vhk77HcQ6vSwxZP9pePrKgxravkXjFehNxVx7oADheyYfkcYWrMHugBXDg0uFTz3PXO2hi86q6_0Tpmy-J1n6SHCNe5JT8COsOnvl11UqS2jNLAdgBW8Que-WOyE7mdFwGckaZJAZGVbg1wjg4YkO-Q_OEdhncwXe3CMT5aJe-xX4byimsZCK7vXGRqc5pYt9U9t7Tt0wAJrLrgm8Ev4g7zZsiK"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<span class="text-primary-fixed font-bold text-xs tracking-widest uppercase mb-2 block">Infrastructure</span>
+<h3 class="text-white text-3xl font-headline font-bold mb-4">Urban Infrastructure &amp; Connectivity</h3>
+<p class="text-slate-300 font-body max-w-md mb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Building the backbone of smart cities through integrated civil engineering and state-of-the-art transit solutions.</p>
+<button class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md px-6 py-2 rounded-full text-sm font-bold border border-white/30 transition-all">Learn More</button>
+</div>
+</div>
+<!-- Side Card 1 -->
+<div class="relative group overflow-hidden rounded-xl bg-slate-100">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Bright minimal office atrium with high ceilings and lush indoor vertical gardens reflecting corporate sustainability" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBChl6A3B4StBa_ef2OFnPko8fojN_Y95NwzffGPlZBX42JFnDZh9gdvqPQEU3TPL_BuZbd9VrQBggK-8fKUFSIolU66QRad1LhIM9YFo-mDwE6W-20CqlG1PXWeChfih3mPh9_x_9mBqhhv1sT7N39NIklE3ewquhPXduP2kRLGgMDp-UMA0IC5L0Wi0d9bLPa4g-3QeL3O_XbyMMkETJzc7xs8aoY3ekv_Mx13JDNhQX-MfrmVHIMbpq2MxVzC3Q-IOFq_O9vn3tH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-white text-xl font-headline font-bold">Plant &amp; Green Energy</h3>
+<p class="text-slate-400 text-sm mt-2">Sustainable power solutions for a zero-carbon era.</p>
+</div>
+</div>
+<!-- Side Card 2 -->
+<div class="relative group overflow-hidden rounded-xl bg-slate-100">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Technician monitoring complex industrial machinery with a digital tablet interface in a clean factory environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANOLP03lpyJKsx6LVNN3RcrucB6dRywUlxfdYA4866Tt8-kxtCdudGiTcW23A29dH19mSotU1TDla0KMnKREWBZzznA9pCyfmLsJX5BO2yzg_h4YEnXLcLcHVIiOCAETcBy7dXCjXlMvfvQLxQQamJr-uw_LrilNvMZFwPt6v67FY0XzMXIkp7mmSYk3Tz8M1rtBoRM_0G82DYWRJS5ZD7y-s5EA4CDrCERT3Ys2oBEJehmQ1oi_LeZaywSxWOcOMCi0rxniyhKQiD"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-white text-xl font-headline font-bold">R&amp;D &amp; Tech Innovation</h3>
+<p class="text-slate-400 text-sm mt-2">Patented construction methods and materials.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Showcase -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="text-slate-900 font-headline font-extrabold text-4xl mb-4">Iconic Projects</h2>
+<p class="text-slate-500 font-body">Our portfolio across the globe stands as a testament to our commitment to engineering excellence.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- Project 1 -->
+<div class="group cursor-pointer">
+<div class="h-64 overflow-hidden rounded-lg mb-4 bg-slate-200">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Glass facade of a contemporary high-rise building reflecting the sunset sky and urban surroundings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHE7DGichAijezi1FEHm7vei0Rvj0kOgjh77VqCtEVJpqaCG-U_4F-Rruaqj-Rnxi7vNi9G_75EoNGWSqzZglq34v-UcfDc-B95LR4PmcGOIHpf5DD4tG-VqyNcczDChy-RI8mtl8NoCPPbE7tXerTCSjl9IFTlEtcCvlth2fp9iRrIqxuJNmVDAXhjlyo8HxuPlCmleOWzxEbTyWqAooo103jiTzx0BLckcSCashGfhYgZ0UWW9dJENqnfS7l8wPLZ5eF0D1srIct"/>
+</div>
+<h4 class="font-headline font-bold text-slate-800 group-hover:text-primary transition-colors">Seoul Smart Plaza</h4>
+<p class="text-xs text-slate-500 font-label uppercase tracking-widest mt-1">High-Rise Commercial</p>
+</div>
+<!-- Project 2 -->
+<div class="group cursor-pointer">
+<div class="h-64 overflow-hidden rounded-lg mb-4 bg-slate-200">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Aerial view of a complex highway interchange with curved concrete structures and evening traffic lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtv3asG9WreiiIaWNHXmNOvZeU-k6yU635Lx9JRs0YGD7bm9OU3GjpmZKaRMi26lhS3ZE8OVHv954GA-FMbbAgXN18YXjhFEdMGiPQHDxbZD0NZY_uB4RePd0uGz2qiczLREB7ghRPS6Y51hldJTMVAggWg_Z9czYlQVg6xuqu7ia23ju4W3z4V__TkJJofD3i_GqNOa1AtYrwPpYFpZCagi7qMox8_aKMeV1prJr1uLOf_As20usQrVQhmlumVill3SARs8VOnRYb"/>
+</div>
+<h4 class="font-headline font-bold text-slate-800 group-hover:text-primary transition-colors">West Link Bridge</h4>
+<p class="text-xs text-slate-500 font-label uppercase tracking-widest mt-1">Civil Engineering</p>
+</div>
+<!-- Project 3 -->
+<div class="group cursor-pointer">
+<div class="h-64 overflow-hidden rounded-lg mb-4 bg-slate-200">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Rows of modern wind turbines on a green rolling hill under a dramatic overcast sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDt-7s7F-6AULaQd1S_Y9YGuo4Qcen-THulmG17YcwxBHo80jvPOaWAX5Ar396a3_0JU_GZKKQtLI5Dxhg8WH3OeRHEa21n1-b0mtTTJOwTNCGrqk19tf018a5LNQwt-U4LtQMFSs-rZ6BZxTo74n_dXP1E4gG77QpGK6eDlYamFtSjyzHi4cGktqntqnwDqoedWB_ikES_17js355aM5r5Q4F9SPkK6w5BOXPOvZFFqlewUDLX9STMYuFucTXIZxTHwFg5b6eR-_yd"/>
+</div>
+<h4 class="font-headline font-bold text-slate-800 group-hover:text-primary transition-colors">Jeju Eco-Wind Farm</h4>
+<p class="text-xs text-slate-500 font-label uppercase tracking-widest mt-1">Sustainable Energy</p>
+</div>
+<!-- Project 4 -->
+<div class="group cursor-pointer">
+<div class="h-64 overflow-hidden rounded-lg mb-4 bg-slate-200">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Industrial steel manufacturing plant at dusk with glowing orange lights and steam rising from cooling towers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpvGXx4xWtktGqavJflLBQTKyX5-42bECyeQw2o-EPjIuTkgS6m2QgCsXWjmXUrpAQUVfffb9-msMWxDKSwYiJy79kG0p4vtiDqrE1gj6aTsVtQE9USjOG86jBEk9Yy6QJidAIwmcj6rlhQdgshuJCu5cPuC2D2yeSSm5m56SY2QvuFP7EPWazq4Ky4TjwXxvXayrQAzoTYbaA_xTkciD2Sw9NTW5qM4j2ez0yr1npg6ADoFWzGW5EqevOhpmrzQzsWzXZ2NSrMvlT"/>
+</div>
+<h4 class="font-headline font-bold text-slate-800 group-hover:text-primary transition-colors">Ulsan Industrial Plant II</h4>
+<p class="text-xs text-slate-500 font-label uppercase tracking-widest mt-1">Industrial Complex</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust & PR -->
+<section class="py-24 bg-white border-y border-slate-100">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div>
+<h3 class="text-slate-900 font-headline font-bold text-3xl mb-8">Latest Corporate News</h3>
+<div class="space-y-8">
+<div class="flex gap-6 items-start">
+<div class="flex-shrink-0 w-16 h-16 bg-slate-100 flex flex-col items-center justify-center rounded text-slate-500">
+<span class="text-xl font-bold font-headline">12</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter">Oct</span>
+</div>
+<div>
+<h5 class="font-bold text-slate-800 hover:text-primary transition-colors cursor-pointer mb-2">Selected as "Best Workplace 2024" by Ministry of Labor</h5>
+<p class="text-slate-500 text-sm">Recognizing our commitment to employee welfare and safe working environments...</p>
+</div>
+</div>
+<div class="flex gap-6 items-start">
+<div class="flex-shrink-0 w-16 h-16 bg-slate-100 flex flex-col items-center justify-center rounded text-slate-500">
+<span class="text-xl font-bold font-headline">05</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter">Sep</span>
+</div>
+<div>
+<h5 class="font-bold text-slate-800 hover:text-primary transition-colors cursor-pointer mb-2">Expansion of Hydrogen Power Infrastructure Project</h5>
+<p class="text-slate-500 text-sm">New partnership signed for the development of green hydrogen storage facilities...</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-slate-50 p-10 rounded-2xl flex flex-col justify-center border border-slate-100">
+<span class="material-symbols-outlined text-primary text-5xl mb-6" style="font-variation-settings: 'FILL' 1;">eco</span>
+<h3 class="text-slate-900 font-headline font-bold text-3xl mb-4">ESG Management</h3>
+<p class="text-slate-600 mb-8 leading-relaxed">We are committed to transparent governance, environmental stewardship, and social responsibility in every project we undertake.</p>
+<a class="inline-flex items-center gap-2 font-bold text-slate-800 border-b-2 border-slate-800 pb-1 w-fit hover:text-primary hover:border-primary transition-all" href="#">
+                        View 2023 ESG Report
+                        <span class="material-symbols-outlined text-sm">download</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-slate-200 bg-white">
+<div class="max-w-7xl mx-auto px-6 pt-16 pb-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-1">
+<div class="text-lg font-bold text-slate-800 mb-6 font-headline">Taeil C&amp;T</div>
+<p class="text-slate-500 text-sm leading-relaxed font-body">
+                        Elevating standards through engineering innovation and structural integrity. Leading the industry with safety and precision.
+                    </p>
+</div>
+<div>
+<h6 class="font-bold text-slate-900 mb-6 text-sm uppercase tracking-widest">Business</h6>
+<ul class="space-y-4 text-slate-500 text-sm">
+<li class="hover:text-primary transition-colors cursor-pointer">Civil Engineering</li>
+<li class="hover:text-primary transition-colors cursor-pointer">Industrial Plant</li>
+<li class="hover:text-primary transition-colors cursor-pointer">Architectural Design</li>
+<li class="hover:text-primary transition-colors cursor-pointer">Project Management</li>
+</ul>
+</div>
+<div>
+<h6 class="font-bold text-slate-900 mb-6 text-sm uppercase tracking-widest">Company</h6>
+<ul class="space-y-4 text-slate-500 text-sm">
+<li class="hover:text-primary transition-colors cursor-pointer">About Us</li>
+<li class="hover:text-primary transition-colors cursor-pointer">History</li>
+<li class="hover:text-primary transition-colors cursor-pointer">Global Network</li>
+<li class="hover:text-primary transition-colors cursor-pointer">IR/Financials</li>
+</ul>
+</div>
+<div>
+<h6 class="font-bold text-slate-900 mb-6 text-sm uppercase tracking-widest">Contact</h6>
+<p class="text-slate-500 text-sm mb-4">123 Engineering Blvd, Seoul, South Korea</p>
+<p class="text-slate-500 text-sm font-bold">T. +82 2-123-4567</p>
+<p class="text-slate-500 text-sm font-bold">E. hello@taeilcnt.com</p>
+</div>
+</div>
+<div class="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 text-sm font-inter">© 2024 Taeil C&amp;T. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="text-slate-500 text-sm hover:text-slate-900 transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="text-slate-500 text-sm hover:text-slate-900 transition-opacity duration-200" href="#">Terms of Service</a>
+<a class="text-slate-500 text-sm hover:text-slate-900 transition-opacity duration-200" href="#">Ethical Management</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- 태일씨앤티 - 회사소개 (순백색) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | Taeil C&amp;T</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;family=Be+Vietnam+Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#00210b",
+                    "primary-container": "#028943",
+                    "inverse-primary": "#6fdc8c",
+                    "surface-bright": "#f5fbf1",
+                    "outline-variant": "#bdcabc",
+                    "on-surface-variant": "#3e4a3f",
+                    "on-primary-fixed": "#00210b",
+                    "tertiary-fixed-dim": "#ffb599",
+                    "on-tertiary-fixed-variant": "#6d3822",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-highest": "#dee4db",
+                    "surface-variant": "#dee4db",
+                    "primary-fixed-dim": "#6fdc8c",
+                    "inverse-surface": "#2b322c",
+                    "on-background": "#171d17",
+                    "surface-container-low": "#eff6ec",
+                    "secondary-container": "#bfebc3",
+                    "secondary": "#406748",
+                    "primary": "#006d34",
+                    "secondary-fixed": "#c1edc6",
+                    "on-secondary": "#ffffff",
+                    "surface-dim": "#d5dcd2",
+                    "on-secondary-fixed-variant": "#284f32",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#0f0200",
+                    "on-primary-container": "#ffffff",
+                    "surface-container": "#e9f0e6",
+                    "tertiary": "#894f37",
+                    "outline": "#6e7a6e",
+                    "on-primary-fixed-variant": "#005226",
+                    "tertiary-fixed": "#ffdbce",
+                    "on-tertiary-fixed": "#370e00",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#ecf3e9",
+                    "on-secondary-container": "#446b4c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#a7674d",
+                    "surface": "#f5fbf1",
+                    "secondary-fixed-dim": "#a6d1ab",
+                    "background": "#f5fbf1",
+                    "surface-tint": "#006d34",
+                    "surface-container-high": "#e3eae0",
+                    "on-surface": "#171d17",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#8bfaa6"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Lexend"],
+                    "body": ["Inter"],
+                    "label": ["Be Vietnam Pro"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #FFFFFF; }
+        .font-lexend { font-family: 'Lexend', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="text-on-background bg-white">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white border-b border-slate-100 shadow-sm duration-300 ease-in-out">
+<div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+<div class="text-2xl font-black text-slate-900 font-lexend tracking-tight">Taeil C&amp;T</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-green-600 font-bold border-b-2 border-green-500 pb-1 font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">Company Intro</a>
+<a class="text-slate-600 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">Business Performance</a>
+<a class="text-slate-600 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">Tech Innovation</a>
+<a class="text-slate-600 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">PR Center</a>
+<a class="text-slate-600 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">Careers</a>
+<a class="text-slate-600 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">ESG Management</a>
+</div>
+<button class="bg-primary-container text-white px-6 py-2.5 font-bold font-label hover:opacity-90 transition-opacity">
+                Contact Us
+            </button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative h-[614px] flex items-center justify-center overflow-hidden bg-slate-50">
+<div class="absolute inset-0 opacity-10">
+<img class="w-full h-full object-cover" data-alt="Modern architectural glass facade reflecting bright clear sky with clean geometric lines and professional aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgMtJn5nhpycPGI12qx-fCoSESKgHMJyFfa_rkSa8MHYHALgijg70gjVGTTM5F_0OSu1Tp7dxt4R5TUXJRQmtycf4lnuWQYW4hFJvy8BM3ymvc1X5fF_N70QozT4zaoCJCAN1YT7__As2IVR8YyAHVig_CnCwCI3W6h-YrWa2uQJx5V32rx0i8urGI7sV8mGYvXx54ElEwL33WpoLou68zACvbkktdR9k6p448Sv0ZBUU1icIJ_MeDhygGCogY4JmvXRzlvX21xKjv"/>
+</div>
+<div class="relative z-10 max-w-4xl mx-auto text-center px-6">
+<h1 class="text-5xl md:text-7xl font-headline font-black text-slate-900 tracking-tighter mb-6">
+                    Pioneering the Future of <span class="text-primary">Chemical Technology</span>
+</h1>
+<p class="text-xl text-slate-600 font-body max-w-2xl mx-auto leading-relaxed">
+                    A global leader in sustainable chemical solutions, driving innovation through precision and integrity since 1994.
+                </p>
+</div>
+</section>
+<!-- CEO Message -->
+<section class="py-24 px-6 bg-white">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="aspect-[4/5] bg-slate-100 overflow-hidden">
+<img class="w-full h-full object-cover grayscale" data-alt="Professional portrait of a mature male executive in a well-lit modern minimalist office setting with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABu1WrQpSFUZKqtijo4WYHuhRTkQhpJrNE_eO7Cbc2yzki5zy5N3gnoJURefbvYa_0eU4QB1jBxe6uKqaJa_2yOsduswDoClro3ZoEVVYwRO2MIVpJBNDF38xk3iGnJhumLvHXT1BVCV4UymI0jPFe9A3QVVrVj92AAWuwDxYh4-GygnYol0OmJaxG90HdtENXeh6KaU1yNuAtsTgWuyYXZjaOwnR6vTvieOy4ai0wl1k_FAVWqM3IB8p555JoNus02TzANL4A9A3a"/>
+</div>
+<div class="absolute -bottom-6 -right-6 bg-primary p-8 text-white hidden lg:block">
+<span class="material-symbols-outlined text-4xl mb-4" data-icon="format_quote">format_quote</span>
+<p class="font-headline font-bold text-xl italic leading-tight">Trust is the foundation of our chemistry.</p>
+</div>
+</div>
+<div>
+<h2 class="text-sm font-label font-bold text-primary uppercase tracking-[0.2em] mb-4">CEO Message</h2>
+<h3 class="text-4xl font-headline font-bold text-slate-900 mb-8 leading-tight">Leading with Innovation, Serving with Integrity</h3>
+<div class="space-y-6 text-slate-600 font-body text-lg leading-relaxed">
+<p>For over three decades, Taeil C&amp;T has remained committed to pushing the boundaries of what is possible in the chemical industry. Our journey has been defined by a relentless pursuit of excellence and a deep-seated belief that innovation should serve humanity and the planet.</p>
+<p>We believe that true progress is measured not just by our technical achievements, but by the lasting trust we build with our partners and the positive impact we leave on the environment.</p>
+<p>As we look toward the next generation of growth, we remain dedicated to being a pioneer of green technology and a reliable partner for global industries.</p>
+<div class="pt-8">
+<p class="font-bold text-slate-900 font-lexend">Kwang-ho Lee</p>
+<p class="text-sm text-slate-500 uppercase tracking-wider">Chief Executive Officer, Taeil C&amp;T</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Vision (Asymmetric Bento) -->
+<section class="py-24 px-6 bg-slate-50">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Mission -->
+<div class="lg:col-span-7 bg-white p-12 flex flex-col justify-between border border-slate-100 shadow-sm">
+<div>
+<div class="w-12 h-12 bg-primary-container/10 flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-primary" data-icon="rocket_launch">rocket_launch</span>
+</div>
+<h2 class="text-3xl font-headline font-bold text-slate-900 mb-6">Our Mission</h2>
+<p class="text-xl text-slate-600 leading-relaxed font-body">
+                                To provide world-class chemical solutions that empower industries to operate more efficiently and sustainably, creating value through advanced material science.
+                            </p>
+</div>
+<div class="mt-12 h-1 w-24 bg-primary"></div>
+</div>
+<!-- Vision -->
+<div class="lg:col-span-5 bg-on-secondary-fixed p-12 text-white flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-white/10 flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-white" data-icon="visibility">visibility</span>
+</div>
+<h2 class="text-3xl font-headline font-bold mb-6">Our Vision</h2>
+<p class="text-xl text-slate-300 leading-relaxed font-body">
+                                To become the global standard for eco-friendly chemical innovation, leading the transition to a carbon-neutral industrial future by 2040.
+                            </p>
+</div>
+<div class="mt-12 flex gap-2">
+<div class="h-1 w-4 bg-white"></div>
+<div class="h-1 w-4 bg-white/30"></div>
+<div class="h-1 w-4 bg-white/30"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Values (Minimal Grid) -->
+<section class="py-24 px-6 bg-white">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-20">
+<h2 class="text-sm font-label font-bold text-primary uppercase tracking-[0.2em] mb-4">Core Values</h2>
+<h3 class="text-4xl font-headline font-bold text-slate-900">The Principles That Guide Us</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+<div class="text-center group">
+<div class="mb-6 inline-flex p-4 rounded-full bg-slate-50 group-hover:bg-primary-container transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-slate-900 group-hover:text-white" data-icon="verified">verified</span>
+</div>
+<h4 class="text-xl font-headline font-bold mb-4">Integrity</h4>
+<p class="text-slate-600 font-body leading-relaxed">We maintain the highest ethical standards in all our interactions, ensuring transparency and accountability at every level.</p>
+</div>
+<div class="text-center group">
+<div class="mb-6 inline-flex p-4 rounded-full bg-slate-50 group-hover:bg-primary-container transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-slate-900 group-hover:text-white" data-icon="psychology">psychology</span>
+</div>
+<h4 class="text-xl font-headline font-bold mb-4">Innovation</h4>
+<p class="text-slate-600 font-body leading-relaxed">We foster a culture of curiosity and creative problem-solving to stay ahead of the evolving needs of our global clients.</p>
+</div>
+<div class="text-center group">
+<div class="mb-6 inline-flex p-4 rounded-full bg-slate-50 group-hover:bg-primary-container transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-slate-900 group-hover:text-white" data-icon="eco">eco</span>
+</div>
+<h4 class="text-xl font-headline font-bold mb-4">Sustainability</h4>
+<p class="text-slate-600 font-body leading-relaxed">Our commitment to the environment drives us to develop technologies that minimize waste and maximize efficiency.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- History/Journey (Vertical Timeline) -->
+<section class="py-24 px-6 bg-slate-50 overflow-hidden">
+<div class="max-w-5xl mx-auto">
+<div class="mb-20">
+<h2 class="text-sm font-label font-bold text-primary uppercase tracking-[0.2em] mb-4 text-center">Our Journey</h2>
+<h3 class="text-4xl font-headline font-bold text-slate-900 text-center">A Legacy of Growth</h3>
+</div>
+<div class="relative">
+<!-- Vertical Line -->
+<div class="absolute left-0 md:left-1/2 transform -translate-x-px h-full w-0.5 bg-slate-200"></div>
+<!-- 2020s -->
+<div class="relative mb-24 md:mb-32">
+<div class="md:flex items-center">
+<div class="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
+<span class="text-primary font-lexend font-black text-6xl opacity-20 block md:inline">2024</span>
+<h4 class="text-2xl font-headline font-bold text-slate-900 mt-2">Global ESG Leadership</h4>
+<p class="text-slate-600 mt-4 font-body">Established the Global Carbon-Neutral Research Center and achieved RE100 certification for main production plants.</p>
+</div>
+<div class="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-primary ring-4 ring-white"></div>
+<div class="md:w-1/2 md:pl-12"></div>
+</div>
+</div>
+<!-- 2010s -->
+<div class="relative mb-24 md:mb-32">
+<div class="md:flex items-center">
+<div class="md:w-1/2 md:pr-12"></div>
+<div class="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-slate-400 ring-4 ring-white"></div>
+<div class="md:w-1/2 md:pl-12">
+<span class="text-primary font-lexend font-black text-6xl opacity-20">2015</span>
+<h4 class="text-2xl font-headline font-bold text-slate-900 mt-2">Market Expansion</h4>
+<p class="text-slate-600 mt-4 font-body">Expanded operations into Southeast Asia and European markets with new regional headquarters in Singapore and Germany.</p>
+</div>
+</div>
+</div>
+<!-- 2000s -->
+<div class="relative mb-24 md:mb-32">
+<div class="md:flex items-center">
+<div class="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
+<span class="text-primary font-lexend font-black text-6xl opacity-20 block md:inline">2005</span>
+<h4 class="text-2xl font-headline font-bold text-slate-900 mt-2">R&amp;D Excellence</h4>
+<p class="text-slate-600 mt-4 font-body">Opened the state-of-the-art Taeil Central Research Laboratory, focusing on high-precision polymer development.</p>
+</div>
+<div class="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-slate-400 ring-4 ring-white"></div>
+<div class="md:w-1/2 md:pl-12"></div>
+</div>
+</div>
+<!-- 1990s -->
+<div class="relative">
+<div class="md:flex items-center">
+<div class="md:w-1/2 md:pr-12"></div>
+<div class="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-slate-400 ring-4 ring-white"></div>
+<div class="md:w-1/2 md:pl-12">
+<span class="text-primary font-lexend font-black text-6xl opacity-20">1994</span>
+<h4 class="text-2xl font-headline font-bold text-slate-900 mt-2">The Foundation</h4>
+<p class="text-slate-600 mt-4 font-body">Founded in Seoul, Korea, with a mission to localize advanced chemical materials previously dominated by imports.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-white border-t border-slate-200">
+<div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="text-lg font-bold text-slate-800 font-lexend">Taeil C&amp;T</div>
+<div class="flex gap-8">
+<a class="text-slate-500 font-inter text-sm hover:text-slate-900 transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="text-slate-500 font-inter text-sm hover:text-slate-900 transition-opacity duration-200" href="#">Terms of Service</a>
+<a class="text-slate-500 font-inter text-sm hover:text-slate-900 transition-opacity duration-200" href="#">Ethical Management</a>
+</div>
+<p class="text-slate-500 font-inter text-sm">© 2024 Taeil C&amp;T. All rights reserved.</p>
+</div>
+</footer>
+</body></html>
+
+<!-- 태일씨앤티 - 사업실적 (순백색) -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Business Performance | Taeil C&amp;T</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;family=Be+Vietnam+Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#00210b",
+                    "primary-container": "#028943",
+                    "inverse-primary": "#6fdc8c",
+                    "surface-bright": "#f5fbf1",
+                    "outline-variant": "#bdcabc",
+                    "on-surface-variant": "#3e4a3f",
+                    "on-primary-fixed": "#00210b",
+                    "tertiary-fixed-dim": "#ffb599",
+                    "on-tertiary-fixed-variant": "#6d3822",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-highest": "#dee4db",
+                    "surface-variant": "#dee4db",
+                    "primary-fixed-dim": "#6fdc8c",
+                    "inverse-surface": "#2b322c",
+                    "on-background": "#171d17",
+                    "surface-container-low": "#eff6ec",
+                    "secondary-container": "#bfebc3",
+                    "secondary": "#406748",
+                    "primary": "#006d34",
+                    "secondary-fixed": "#c1edc6",
+                    "on-secondary": "#ffffff",
+                    "surface-dim": "#d5dcd2",
+                    "on-secondary-fixed-variant": "#284f32",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#0f0200",
+                    "on-primary-container": "#ffffff",
+                    "surface-container": "#e9f0e6",
+                    "tertiary": "#894f37",
+                    "outline": "#6e7a6e",
+                    "on-primary-fixed-variant": "#005226",
+                    "tertiary-fixed": "#ffdbce",
+                    "on-tertiary-fixed": "#370e00",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#ecf3e9",
+                    "on-secondary-container": "#446b4c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#a7674d",
+                    "surface": "#f5fbf1",
+                    "secondary-fixed-dim": "#a6d1ab",
+                    "background": "#f5fbf1",
+                    "surface-tint": "#006d34",
+                    "surface-container-high": "#e3eae0",
+                    "on-surface": "#171d17",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#8bfaa6"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Lexend"],
+                    "body": ["Inter"],
+                    "label": ["Be Vietnam Pro"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { background-color: #FFFFFF; }
+    </style>
+</head>
+<body class="font-body text-on-background">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 shadow-sm transition-colors duration-300 ease-in-out">
+<div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+<div class="text-2xl font-black text-slate-900 dark:text-white font-headline tracking-tight">
+                Taeil C&amp;T
+            </div>
+<nav class="hidden md:flex items-center space-x-8 font-lexend tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 transition-colors" href="#">Company Intro</a>
+<a class="text-green-600 dark:text-green-400 font-bold border-b-2 border-green-500 pb-1 hover:text-green-500 transition-colors" href="#">Business Performance</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 transition-colors" href="#">Tech Innovation</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 transition-colors" href="#">PR Center</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 transition-colors" href="#">Careers</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 transition-colors" href="#">ESG Management</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden lg:flex items-center text-slate-600 dark:text-slate-400">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+<button class="bg-primary-container text-on-primary-container px-6 py-2.5 rounded font-label font-semibold text-sm hover:opacity-90 transition-opacity">
+                    Contact Us
+                </button>
+<button class="md:hidden flex items-center">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative h-[400px] flex items-center bg-surface-container overflow-hidden">
+<div class="absolute inset-0 opacity-20">
+<img alt="Civil engineering project" class="w-full h-full object-cover" data-alt="Modern construction site with large-scale industrial structures under a clear blue sky with professional clean lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm00kntBM18cb4iJoPV3SEcLTxpZ_PGgkP0roUV_bfziTFujzwqArPVRw0E_UnWfbzEySHhwSze7kqPI7ruWwvY9hPdlG_0O08_zt3QLQCsKRooo2CJPUwudNG8rI-HhFeiDp428SyFLKZps3DJqlf8ykQvx0IauwDI0k-aRzUJbgsibiz3DW-fxCTOiHznEj1uRqGc0rmRkVOxx53_JbTZhJEuAYqpZMZ4eP6Vs6o4yeONnAiSi4p_8brvFunbZVobrk1e8YS-7B9"/>
+</div>
+<div class="relative max-w-7xl mx-auto px-6 w-full">
+<h1 class="text-5xl md:text-6xl font-headline font-black text-on-surface mb-4 tracking-tight">
+                    Business <span class="text-primary">Performance</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-2xl font-body leading-relaxed">
+                    Engineering excellence through decades of innovation. We deliver large-scale industrial and civil projects with precision, safety, and sustainable practices.
+                </p>
+</div>
+</section>
+<!-- Stats Section (Bento Style) -->
+<section class="py-20 max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<div class="md:col-span-2 bg-primary-container p-8 rounded flex flex-col justify-between text-white">
+<div class="text-sm font-label font-bold uppercase tracking-widest opacity-80">Global Portfolio</div>
+<div class="mt-12">
+<div class="text-6xl font-headline font-black">500+</div>
+<div class="text-xl font-body mt-2">Successfully completed major infrastructure projects worldwide.</div>
+</div>
+</div>
+<div class="bg-secondary-container p-8 rounded flex flex-col justify-between">
+<div class="text-sm font-label font-bold text-on-secondary-container uppercase tracking-widest">Experience</div>
+<div class="mt-8">
+<div class="text-4xl font-headline font-black text-on-secondary-container">30+</div>
+<div class="text-sm font-body text-on-secondary-container mt-1">Years of technical leadership.</div>
+</div>
+</div>
+<div class="bg-surface-container-high p-8 rounded flex flex-col justify-between border border-outline-variant">
+<div class="text-sm font-label font-bold text-on-surface-variant uppercase tracking-widest">Safety Record</div>
+<div class="mt-8">
+<div class="text-4xl font-headline font-black text-primary">0</div>
+<div class="text-sm font-body text-on-surface-variant mt-1">Major incidents in the last decade.</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Grid (Asymmetric) -->
+<section class="py-12 max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="text-sm font-label font-bold text-primary uppercase tracking-widest mb-2">Portfolio</h2>
+<h3 class="text-4xl font-headline font-extrabold text-on-surface">Flagship Projects</h3>
+</div>
+<div class="hidden md:flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline flex items-center justify-center hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center hover:opacity-90 transition-colors">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Large Project Card -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="relative h-[500px] overflow-hidden rounded bg-slate-100 mb-4">
+<img alt="Industrial Plant" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Wide angle shot of a massive industrial energy plant at dusk with glowing blue and white lights against a dark sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCT7jEdW5eB7njXG8l0WzBLgEUhDKVcIJF57VTN_CSvWGJ4Pvp3iCoA4pjEvVInxG282bv3d-P3Svx--Q64ZcJg6ANiKXHPjhkKK6kuVcA3hSr6_FU0-PDjmM0NuiWCAw2t73Nh_GdPEhAQwErdSq5Vznlo5mvab8YdTY_57EhXT8VQVwkDPIwSGt0NfWg1arQHDoQKEXu-AaHDct5u1_UxW6gV_v6kr1UnMejc8uh_mxT10vQbJiLN9AO8WxGtBp0VkeySbbNoNBjp"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
+<div>
+<span class="bg-primary text-white px-3 py-1 text-xs font-label font-bold mb-3 inline-block">Industrial Plant</span>
+<h4 class="text-3xl font-headline font-bold text-white">Central Energy Hub Phase II</h4>
+</div>
+</div>
+</div>
+<p class="text-on-surface-variant font-body">Integration of sustainable cooling systems and high-capacity electrical grids for metropolitan expansion.</p>
+</div>
+<!-- Vertical Card Stack -->
+<div class="md:col-span-4 flex flex-col gap-8">
+<div class="group cursor-pointer">
+<div class="relative h-[230px] overflow-hidden rounded bg-slate-100 mb-3">
+<img alt="Bridge Construction" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Modern suspension bridge construction spanning a wide river with intricate steel cable details in bright daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFyl2JHjLLujeMwHWF2eYFIJkE4Trw-kf9SsMJsXJcd7hlMTgot2ljoLdEdHpn0HYVHBYFLwpMXGXGvtur8Gsc-QXtTh03eTialueMZEvbUe-Lc5z9rCOopLBJ6fYTKwbGbymjAsRVMfBbVc0b1T0wSa4Fln6XKVlbYqXLyW1JlUXK846zlrIQCt31RzdZURsjSWDvEw4UDbJmHz5DZjd0MFLSJVXGUDjKFdCkjdIP3n4JJLLzO3S1DlA5U8aInfOk_XSG3vBh8GYz"/>
+</div>
+<span class="text-primary text-xs font-label font-bold uppercase">Infrastructure</span>
+<h4 class="text-xl font-headline font-bold text-on-surface mt-1">Riverside Smart Bridge</h4>
+</div>
+<div class="group cursor-pointer">
+<div class="relative h-[230px] overflow-hidden rounded bg-slate-100 mb-3">
+<img alt="Corporate HQ" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Sleek glass skyscraper facade reflecting white clouds with architectural precision and clean aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF4fgpTNlgBM0hgUfv03WjSx-58dUNh4dT-FUSnGQs_qJ79NlUjLc3eeSBQE_e1iGkdpOXinyrQ6E-cg97-_Ptsfo_eYnaAqLPLxmrrGbbXBScEQKDCSkvWHKCkOIIfLYJmVsMXb1qVTlzrOyLmJ6wrBS72pPftLWlLj3CS7INtL4bn-FR5HiBQbfuzuddz5JbS7wPLfJM2EbyGGOSTWDd0lY48dfvouEcG9T_2brPIoNzf6oL7dfA1J8F1Ucfjl-E9wAiB_85_J7M"/>
+</div>
+<span class="text-primary text-xs font-label font-bold uppercase">Corporate</span>
+<h4 class="text-xl font-headline font-bold text-on-surface mt-1">Tech Tower Headquarters</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Capabilities -->
+<section class="py-24 bg-surface-container-lowest border-y border-outline-variant">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-headline font-black text-on-surface">Technical Capabilities</h2>
+<div class="w-20 h-1.5 bg-primary mx-auto mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl" data-icon="precision_manufacturing">precision_manufacturing</span>
+</div>
+<h5 class="text-xl font-headline font-bold mb-3">Precision Engineering</h5>
+<p class="text-on-surface-variant font-body">Utilizing advanced BIM modeling and AI-driven structural analysis for unmatched project accuracy.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl" data-icon="eco">eco</span>
+</div>
+<h5 class="text-xl font-headline font-bold mb-3">Eco-Innovation</h5>
+<p class="text-on-surface-variant font-body">Sustainable material sourcing and energy-efficient building methods compliant with LEED standards.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl" data-icon="verified_user" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<h5 class="text-xl font-headline font-bold mb-3">Safety Protocol</h5>
+<p class="text-on-surface-variant font-body">Rigorous multi-layer safety audits and real-time site monitoring to ensure zero-harm environments.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Safety Standards (Clean Cards) -->
+<section class="py-20 max-w-7xl mx-auto px-6">
+<div class="bg-white border border-slate-200 rounded-xl p-10 shadow-sm flex flex-col md:flex-row gap-12 items-center">
+<div class="flex-1">
+<h2 class="text-3xl font-headline font-extrabold text-on-surface mb-6">Our Commitment to Excellence &amp; Safety</h2>
+<ul class="space-y-4 font-body text-on-surface-variant">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span>ISO 45001 Occupational Health and Safety Management Systems certified.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span>Daily safety briefings and comprehensive hazard analysis for every site.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span>Continuous technical training programs for our 1,200+ specialized engineers.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span>Real-time digital reporting systems for transparent project management.</span>
+</li>
+</ul>
+<button class="mt-8 border-2 border-primary text-primary px-8 py-3 rounded font-label font-bold hover:bg-primary hover:text-white transition-all">
+                        View Safety Reports
+                    </button>
+</div>
+<div class="flex-1 w-full h-80 rounded-lg overflow-hidden bg-slate-200">
+<img alt="Safety Engineer" class="w-full h-full object-cover" data-alt="Professional engineer in safety vest and hard hat reviewing blueprints with a tablet on a modern construction site" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeQQgtPx1EfL7W5xBmHUOZ5EIvb06BT7-ktgaOHsXKobGwm_WJufZOcJIeYIBy3reyRh6R_mS1R5q4XVt4zjzcPsHiA4VpCsnLnb053KHGbSwbFMhBU3cAyfDhIUZWNqXT7wTEbTjcQg808wjeuzCHnj-EU-E8j8ey0P0ROY4iB79jCvDJMKcxEjG4M27G4CqBJI2o-sQGmxvBSKcWo_1wQqG33Tr2b9dUDXw3_vv6hvTjfvdxNyEQi5HcrFobJA88OgPlSKxTprHV"/>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 font-inter text-sm">
+<div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200 font-headline">
+                Taeil C&amp;T
+            </div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-opacity duration-200" href="#">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-opacity duration-200" href="#">Ethical Management</a>
+</div>
+<div class="text-slate-500 dark:text-slate-400">
+                © 2024 Taeil C&amp;T. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>
+
+<!-- 태일씨앤티 - 기술혁신 (순백색) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tech Innovation | Taeil C&amp;T</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;family=Be+Vietnam+Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#00210b",
+                    "primary-container": "#028943",
+                    "inverse-primary": "#6fdc8c",
+                    "surface-bright": "#f5fbf1",
+                    "outline-variant": "#bdcabc",
+                    "on-surface-variant": "#3e4a3f",
+                    "on-primary-fixed": "#00210b",
+                    "tertiary-fixed-dim": "#ffb599",
+                    "on-tertiary-fixed-variant": "#6d3822",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-highest": "#dee4db",
+                    "surface-variant": "#dee4db",
+                    "primary-fixed-dim": "#6fdc8c",
+                    "inverse-surface": "#2b322c",
+                    "on-background": "#171d17",
+                    "surface-container-low": "#eff6ec",
+                    "secondary-container": "#bfebc3",
+                    "secondary": "#406748",
+                    "primary": "#006d34",
+                    "secondary-fixed": "#c1edc6",
+                    "on-secondary": "#ffffff",
+                    "surface-dim": "#d5dcd2",
+                    "on-secondary-fixed-variant": "#284f32",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#0f0200",
+                    "on-primary-container": "#ffffff",
+                    "surface-container": "#e9f0e6",
+                    "tertiary": "#894f37",
+                    "outline": "#6e7a6e",
+                    "on-primary-fixed-variant": "#005226",
+                    "tertiary-fixed": "#ffdbce",
+                    "on-tertiary-fixed": "#370e00",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#ecf3e9",
+                    "on-secondary-container": "#446b4c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#a7674d",
+                    "surface": "#f5fbf1",
+                    "secondary-fixed-dim": "#a6d1ab",
+                    "background": "#f5fbf1",
+                    "surface-tint": "#006d34",
+                    "surface-container-high": "#e3eae0",
+                    "on-surface": "#171d17",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#8bfaa6"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {},
+            "fontFamily": {
+                    "headline": ["Lexend"],
+                    "body": ["Inter"],
+                    "label": ["Be Vietnam Pro"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #FFFFFF; }
+        .font-headline { font-family: 'Lexend', sans-serif; }
+        .font-label { font-family: 'Be Vietnam Pro', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 shadow-sm transition-colors duration-300 ease-in-out">
+<div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+<div class="text-2xl font-black text-slate-900 dark:text-white font-headline tracking-tight">
+                Taeil C&amp;T
+            </div>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="text-slate-600 dark:text-slate-400 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">Company Intro</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">Business Performance</a>
+<a class="text-green-600 dark:text-green-400 font-bold border-b-2 border-green-500 pb-1 font-lexend tracking-tight" href="#">Tech Innovation</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">PR Center</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">Careers</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium font-lexend tracking-tight hover:text-green-500 transition-colors" href="#">ESG Management</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="hidden lg:flex items-center bg-surface-container-low px-3 py-1.5 rounded-full">
+<span class="material-symbols-outlined text-outline text-sm">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-32 font-label" placeholder="Search" type="text"/>
+</div>
+<button class="bg-primary text-on-primary px-5 py-2.5 rounded-lg font-label font-bold text-sm hover:opacity-90 transition-opacity">
+                    Contact Us
+                </button>
+</div>
+</div>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative bg-white overflow-hidden py-24 lg:py-32">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<span class="text-primary font-label font-bold tracking-widest text-sm uppercase mb-4 block">R&amp;D Leadership</span>
+<h1 class="text-5xl lg:text-7xl font-headline font-black text-on-background leading-tight mb-6">
+                        Pioneering the <br/><span class="text-primary">Next Infrastructure</span>
+</h1>
+<p class="text-lg text-on-surface-variant font-body leading-relaxed max-w-xl">
+                        Taeil C&amp;T is redefining the construction landscape through integrated smart technologies, proprietary engineering methods, and sustainable R&amp;D initiatives.
+                    </p>
+<div class="mt-10 flex gap-4">
+<div class="flex items-center gap-2">
+<span class="text-4xl font-headline font-bold text-primary">120+</span>
+<span class="text-xs font-label text-outline leading-tight">Registered<br/>Patents</span>
+</div>
+<div class="w-px h-10 bg-outline-variant self-center"></div>
+<div class="flex items-center gap-2">
+<span class="text-4xl font-headline font-bold text-primary">15%</span>
+<span class="text-xs font-label text-outline leading-tight">Annual R&amp;D<br/>Investment</span>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-square bg-surface-container-low rounded-xl overflow-hidden shadow-2xl">
+<img alt="Advanced Construction Tech" class="w-full h-full object-cover" data-alt="Close-up of a high-tech robotic arm working on a precision architectural model in a clean white laboratory setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJjVSeMNbzjjKnTRL39w9hgHxTwOIUztogFsmwjYQvLVs9RIxMIU9aOtv6BRqFyslH0jbIfL_SVXYnWFDUXnWbudJheXRasmKnpICRNOCXeqbbRS5NfkaxBBzcHQld5AhO4_Ew0UHLcF1Bctt_QU0ORCzvFBJwgMnrzv0W0EGFzMykrzhp5NmK9HKn1vSe0IJEbBBh5zsaowUWGG-xP8zRb-lg5Q8Hdg0KFLqFvox7aBFAMGfkfS7fDV7TahSDKplV22w8pwJl8Kce"/>
+</div>
+<div class="absolute -bottom-6 -left-6 bg-secondary-container p-8 rounded-lg shadow-xl max-w-xs">
+<p class="font-label font-bold text-on-secondary-container text-sm">"Our goal is to automate 70% of complex structural monitoring by 2030."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Smart Construction Bento Grid -->
+<section class="bg-surface py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-16 text-center max-w-3xl mx-auto">
+<h2 class="text-4xl font-headline font-bold mb-4">Smart Construction Ecosystem</h2>
+<p class="text-on-surface-variant font-body">Integrating IoT, AI, and Big Data into every phase of the project lifecycle to ensure safety, efficiency, and precision.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[600px]">
+<div class="md:col-span-8 bg-white p-8 rounded-xl flex flex-col justify-between border border-outline-variant shadow-sm group hover:border-primary transition-colors">
+<div>
+<div class="w-12 h-12 bg-primary-container text-on-primary-container flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined">analytics</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-3">AI-Driven Risk Prediction</h3>
+<p class="text-on-surface-variant font-body leading-relaxed max-w-md">Our proprietary neural networks analyze real-time site data to predict and prevent potential structural hazards before they occur.</p>
+</div>
+<div class="mt-8 overflow-hidden rounded-lg aspect-video md:aspect-auto h-48">
+<img alt="AI Dashboard" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="A futuristic digital dashboard displaying complex structural engineering data and real-time 3D heat maps in bright green and black" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuvfUIcVij76f31vcZxAZHemd8TCIYOW_SMyN-2EF45nbGLVR1lGq3334lw_3qg1NLKArR0tYnzXn594vwqVtMNvOuADLJeQTG0LnOC8p9QQw734-kqKcHnCyeL_kqkPm6Ut2tqhW6Lpb5BqvxP2ymwjze2pnyo8fCrpkxh5H0wPM-KUOKsdmVIY2MtVjCeJr8suKWmUdyHZIsm9P3tbDwL_4jGO-Ded19rZXoMGXuc6dewn5BwUwdRyWyX4xbQNUjnKnF9v4MBb6T"/>
+</div>
+</div>
+<div class="md:col-span-4 bg-primary text-on-primary p-8 rounded-xl border border-primary flex flex-col justify-center text-center">
+<span class="material-symbols-outlined text-5xl mb-6">precision_manufacturing</span>
+<h3 class="text-2xl font-headline font-bold mb-4">Autonomous Site Robotics</h3>
+<p class="text-primary-fixed opacity-90 font-body">Deployment of robotic total stations and automated surveying drones for millimetric accuracy in large-scale landscapes.</p>
+<button class="mt-8 border border-on-primary text-on-primary px-6 py-2 rounded-lg font-label font-bold hover:bg-on-primary hover:text-primary transition-all self-center">View Technical Specs</button>
+</div>
+<div class="md:col-span-4 bg-white p-8 rounded-xl border border-outline-variant shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">memory</span>
+<h3 class="text-xl font-headline font-bold mb-2">Smart IoT Sensors</h3>
+<p class="text-on-surface-variant text-sm font-body">Embedded vibration and stress sensors providing 24/7 health monitoring of critical infrastructure components.</p>
+</div>
+<div class="md:col-span-8 bg-surface-container-low p-8 rounded-xl border border-outline-variant flex items-center gap-8">
+<div class="flex-1">
+<h3 class="text-xl font-headline font-bold mb-2">BIM Integration (Level 3)</h3>
+<p class="text-on-surface-variant text-sm font-body">Seamless data flow from 3D design to 5D cost and schedule management, reducing waste by up to 22%.</p>
+</div>
+<div class="hidden sm:block w-32 h-32 bg-white rounded-lg p-2 border border-outline-variant">
+<img alt="BIM Model" class="w-full h-full object-cover rounded-sm" data-alt="Minimalist 3D architectural wireframe of a bridge structure on a clean white background with subtle green accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnG6yZlJe699GsU9xE4nldRjr6kcjgf6o-dDcML_Ti3VZ-qHjgdV9KXcO2rZIQFa0NSTvYl2m4kDCyhaPwUF8gtB76W64kvDs7IbKO-BGzuqZM-t-FxCNQuVtiVClCcIWD-rJlqBtHFHbjH4lqJPc8B3Ul_al9p9m_cLY8DCeu9B1BJZI0uNnsajgL4enEmm1nmUT44SUZFtHOV06Yc-9TfAtFHuG2uRRMMv1kdnurGyb5FxHFU6Gm6yk7fauxQd6BvL-Jj6bppwCj"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Intellectual Property & Patents -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<h2 class="text-4xl font-headline font-bold mb-2">Intellectual Property</h2>
+<p class="text-on-surface-variant font-body">Our asset portfolio is the foundation of our engineering excellence.</p>
+</div>
+<div class="flex gap-2">
+<button class="w-12 h-12 rounded-full border border-outline flex items-center justify-center hover:bg-surface-container-low">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline flex items-center justify-center hover:bg-surface-container-low">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Patent Card 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg border-l-4 border-primary shadow-sm">
+<div class="text-xs font-label text-outline mb-2">PATENT NO. 2023-004521</div>
+<h4 class="text-lg font-headline font-bold mb-4">Self-Healing Concrete Composite</h4>
+<p class="text-sm text-on-surface-variant font-body mb-6">A novel biological concrete matrix that automatically seals micro-cracks through bacterial mineralization.</p>
+<div class="flex items-center text-primary font-label text-sm font-bold cursor-pointer group">
+                            Technical Whitepaper 
+                            <span class="material-symbols-outlined text-sm ml-1 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Patent Card 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg border-l-4 border-primary shadow-sm">
+<div class="text-xs font-label text-outline mb-2">PATENT NO. 2022-091283</div>
+<h4 class="text-lg font-headline font-bold mb-4">Vibration Damping System</h4>
+<p class="text-sm text-on-surface-variant font-body mb-6">Advanced seismic absorption tech for skyscrapers using magnetic fluid dampers with real-time response.</p>
+<div class="flex items-center text-primary font-label text-sm font-bold cursor-pointer group">
+                            Technical Whitepaper 
+                            <span class="material-symbols-outlined text-sm ml-1 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Patent Card 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg border-l-4 border-primary shadow-sm">
+<div class="text-xs font-label text-outline mb-2">PATENT NO. 2023-001004</div>
+<h4 class="text-lg font-headline font-bold mb-4">Eco-Steel Fabrication</h4>
+<p class="text-sm text-on-surface-variant font-body mb-6">Low-carbon steel joining process using cold-fusion welding techniques to reduce site-energy consumption.</p>
+<div class="flex items-center text-primary font-label text-sm font-bold cursor-pointer group">
+                            Technical Whitepaper 
+                            <span class="material-symbols-outlined text-sm ml-1 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Future Roadmap -->
+<section class="py-24 bg-on-background text-white overflow-hidden relative">
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-10">
+<img alt="Future City" class="w-full h-full object-cover" data-alt="Abstract aerial nighttime view of a modern city with glowing data lines connecting buildings, dark aesthetic with bright green highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyD-8M0GGGCa3BGrVethFrOMaXGQDoKlDzxe-ZGhLL53uqAC468kAWPR6R24eTL5Eg2XFEND8jQQh9cOcttNxGytWSlscxENHKLFEfxUfBHV5I0XXQwHxdS84JDr1OIcmIGIi_8UJvVoTbcac8Yl4X8ihlZr0bvXCMwrDHBgA6Jm4CVkMt1skUTn7NL6sfRPqwU6Nn37ykmVLhci-LQvb59EvfxPCxBSnp1EzCuhrEzn73DlF0tDjW2wzvZYIzXl-YlK6WPECD6q7i"/>
+</div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<h2 class="text-4xl font-headline font-bold mb-16">Innovation Roadmap 2025 - 2030</h2>
+<div class="space-y-12">
+<div class="flex flex-col md:flex-row gap-8 items-start">
+<div class="text-primary text-2xl font-headline font-bold w-32 shrink-0">2025</div>
+<div class="flex-1 border-l border-primary-container pl-8 pb-12">
+<h4 class="text-xl font-headline font-bold mb-2">Digital Twin Implementation</h4>
+<p class="text-surface-container-highest font-body max-w-2xl">Complete virtualization of all current bridge and tunnel projects, allowing for real-time simulation and predictive maintenance in a virtual space.</p>
+</div>
+</div>
+<div class="flex flex-col md:flex-row gap-8 items-start">
+<div class="text-primary text-2xl font-headline font-bold w-32 shrink-0">2027</div>
+<div class="flex-1 border-l border-primary-container pl-8 pb-12">
+<h4 class="text-xl font-headline font-bold mb-2">Fully Autonomous Heavy Machinery</h4>
+<p class="text-surface-container-highest font-body max-w-2xl">Deployment of Level 4 autonomous excavators and loaders in hazardous site environments to ensure zero human casualty initiatives.</p>
+</div>
+</div>
+<div class="flex flex-col md:flex-row gap-8 items-start">
+<div class="text-primary text-2xl font-headline font-bold w-32 shrink-0">2030</div>
+<div class="flex-1 border-l border-primary-container pl-8">
+<h4 class="text-xl font-headline font-bold mb-2">Net-Zero Construction Lifecycle</h4>
+<p class="text-surface-container-highest font-body max-w-2xl">Achieving full carbon neutrality across our supply chain and construction operations through advanced material science and green hydrogen power.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 bg-white">
+<div class="max-w-4xl mx-auto px-6 text-center">
+<h2 class="text-3xl font-headline font-bold mb-6">Partner with Taeil C&amp;T Innovation</h2>
+<p class="text-on-surface-variant font-body mb-10">We are always looking for visionary partners to push the boundaries of civil engineering. Join us in building a smarter tomorrow.</p>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label font-bold hover:opacity-90 transition-opacity">Request R&amp;D Collaboration</button>
+<button class="bg-surface-container text-on-surface px-8 py-4 rounded-lg font-label font-bold border border-outline-variant hover:bg-surface-container-high transition-colors">Download Tech Brochure</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 transition-colors duration-200">
+<div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex flex-col items-center md:items-start gap-2">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200 font-headline">Taeil C&amp;T</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-body">© 2024 Taeil C&amp;T. All rights reserved.</p>
+</div>
+<div class="flex gap-8">
+<a class="text-slate-500 dark:text-slate-400 text-sm font-label hover:text-slate-900 dark:hover:text-white transition-opacity" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 text-sm font-label hover:text-slate-900 dark:hover:text-white transition-opacity" href="#">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-400 text-sm font-label hover:text-slate-900 dark:hover:text-white transition-opacity" href="#">Ethical Management</a>
+</div>
+<div class="flex gap-4">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center cursor-pointer hover:bg-primary-container hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-sm">language</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center cursor-pointer hover:bg-primary-container hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-sm">share</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- 태일씨앤티 - ESG경영 (순백색) -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ESG Management | Taeil C&amp;T</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;family=Be+Vietnam+Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#00210b",
+                    "primary-container": "#028943",
+                    "inverse-primary": "#6fdc8c",
+                    "surface-bright": "#f5fbf1",
+                    "outline-variant": "#bdcabc",
+                    "on-surface-variant": "#3e4a3f",
+                    "on-primary-fixed": "#00210b",
+                    "tertiary-fixed-dim": "#ffb599",
+                    "on-tertiary-fixed-variant": "#6d3822",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-highest": "#dee4db",
+                    "surface-variant": "#dee4db",
+                    "primary-fixed-dim": "#6fdc8c",
+                    "inverse-surface": "#2b322c",
+                    "on-background": "#171d17",
+                    "surface-container-low": "#eff6ec",
+                    "secondary-container": "#bfebc3",
+                    "secondary": "#406748",
+                    "primary": "#006d34",
+                    "secondary-fixed": "#c1edc6",
+                    "on-secondary": "#ffffff",
+                    "surface-dim": "#d5dcd2",
+                    "on-secondary-fixed-variant": "#284f32",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#0f0200",
+                    "on-primary-container": "#ffffff",
+                    "surface-container": "#e9f0e6",
+                    "tertiary": "#894f37",
+                    "outline": "#6e7a6e",
+                    "on-primary-fixed-variant": "#005226",
+                    "tertiary-fixed": "#ffdbce",
+                    "on-tertiary-fixed": "#370e00",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#ecf3e9",
+                    "on-secondary-container": "#446b4c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#a7674d",
+                    "surface": "#f5fbf1",
+                    "secondary-fixed-dim": "#a6d1ab",
+                    "background": "#f5fbf1",
+                    "surface-tint": "#006d34",
+                    "surface-container-high": "#e3eae0",
+                    "on-surface": "#171d17",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#8bfaa6"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Lexend"],
+                    "body": ["Inter"],
+                    "label": ["Be Vietnam Pro"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Lexend', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 shadow-sm transition-colors duration-300 ease-in-out">
+<div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+<div class="text-2xl font-black text-slate-900 dark:text-white font-lexend tracking-tight">
+                Taeil C&amp;T
+            </div>
+<div class="hidden md:flex items-center space-x-8 font-lexend tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 dark:hover:text-green-300 transition-colors" href="#">Company Intro</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 dark:hover:text-green-300 transition-colors" href="#">Business Performance</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 dark:hover:text-green-300 transition-colors" href="#">Tech Innovation</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 dark:hover:text-green-300 transition-colors" href="#">PR Center</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-green-500 dark:hover:text-green-300 transition-colors" href="#">Careers</a>
+<a class="text-green-600 dark:text-green-400 font-bold border-b-2 border-green-500 pb-1" href="#">ESG Management</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined p-2 text-slate-600 hover:text-green-500 transition-colors">search</button>
+<button class="bg-primary text-white px-5 py-2 text-sm font-bold rounded-lg hover:bg-primary-container transition-colors font-label">Contact Us</button>
+</div>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative h-[500px] flex items-center overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 z-0">
+<img alt="Sustainable Future" class="w-full h-full object-cover opacity-20" data-alt="Modern wind turbines and solar panels integrated into a lush green landscape under a bright clear sky at midday" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXZanaV466PeSAsqSawlmUegkQayMyHId_nQM6Hgr928YoYTF9xy_IoYdj8hMKAcpmlfc_1zyxmmOB1TGN522UlidgtNI-AJ1rXWLygzUpMxPgCUeTeBXuM7r9mv138OqLUTtn5VFJWr7Kn1sIalzSAUvDFoWK5pqyqblHT8eeGeP1sX59zNFsfqVwrNEbWyHjY8_4uQMPpq6xr7p8WYpr_LQVnX4x0PXcOvHSUStT5QXnAJ9i_SIZOc-rDifxfHq7vz0iQX4vohrr"/>
+<div class="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+<div class="max-w-2xl">
+<span class="inline-block px-3 py-1 bg-secondary-container text-on-secondary-container text-xs font-bold rounded mb-4 font-label">OUR COMMITMENT</span>
+<h1 class="text-5xl md:text-6xl font-black text-on-background leading-tight mb-6">Sustainable Growth Through ESG Excellence</h1>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8 font-body">
+                        Taeil C&amp;T is redefining industrial standards by integrating environmental stewardship, social responsibility, and transparent governance into our core business DNA.
+                    </p>
+<div class="flex gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover:shadow-lg transition-all font-label">
+                            View 2024 Report <span class="material-symbols-outlined">download</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Metrics Bento Grid -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="text-3xl font-bold text-on-background mb-2">Impact at a Glance</h2>
+<p class="text-on-surface-variant">Real-time data reflecting our 2023-2024 ESG performance targets.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-[600px]">
+<!-- Environmental Metric -->
+<div class="md:col-span-2 md:row-span-2 bg-surface-container-low rounded-xl p-8 flex flex-col justify-between border border-outline-variant/30 bg-emerald-50/50">
+<div>
+<div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white mb-6">
+<span class="material-symbols-outlined">eco</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Carbon Neutrality 2035</h3>
+<p class="text-on-surface-variant mb-6">We have reduced our manufacturing carbon footprint by 28% year-on-year through smart energy grid implementations.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="flex justify-between mb-2 items-end">
+<span class="text-sm font-bold font-label">PROGRESS</span>
+<span class="text-2xl font-black text-primary font-headline">64%</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full overflow-hidden bg-emerald-100">
+<div class="bg-primary h-full w-[64%]"></div>
+</div>
+</div>
+</div>
+<!-- Social Metric -->
+<div class="md:col-span-1 bg-white border border-outline-variant rounded-xl p-6 flex flex-col justify-center">
+<span class="text-sm font-medium text-on-surface-variant font-label mb-2">Safety Record</span>
+<div class="text-4xl font-black text-secondary flex items-center gap-2">
+                            0.02 <span class="text-sm font-normal text-on-surface-variant">LTI Rate</span>
+</div>
+<p class="text-xs text-on-surface-variant mt-2">Exceeding industry safety standards by 85%.</p>
+</div>
+<!-- Governance Metric -->
+<div class="md:col-span-1 bg-secondary text-white rounded-xl p-6 flex flex-col justify-center">
+<span class="text-sm font-medium text-secondary-container font-label mb-2">Board Independence</span>
+<div class="text-4xl font-black flex items-center gap-2">
+                            80%
+                        </div>
+<p class="text-xs text-secondary-container mt-2">Diverse and independent leadership structure.</p>
+</div>
+<!-- Resource Metric -->
+<div class="md:col-span-2 bg-surface-container-highest rounded-xl p-8 relative overflow-hidden group bg-emerald-50/50">
+<div class="relative z-10 h-full flex flex-col justify-between">
+<h3 class="text-xl font-bold">Circular Economy Initiative</h3>
+<div class="flex items-center gap-6">
+<div>
+<div class="text-3xl font-black">92%</div>
+<div class="text-sm text-on-surface-variant">Waste Recycled</div>
+</div>
+<div class="w-px h-10 bg-outline-variant"></div>
+<div>
+<div class="text-3xl font-black">400k+</div>
+<div class="text-sm text-on-surface-variant">Tons Saved</div>
+</div>
+</div>
+</div>
+<div class="absolute right-0 bottom-0 opacity-10 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-[120px]">rebase_edit</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ESG Pillars Section -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-4xl font-black mb-4">Our Three Pillars of Change</h2>
+<p class="text-on-surface-variant font-body">Defining our strategic direction through rigorous Environmental, Social, and Governance frameworks.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Environment -->
+<div class="group bg-white p-8 rounded-xl border border-outline-variant/30 hover:border-primary transition-all duration-300">
+<div class="mb-6 text-primary">
+<span class="material-symbols-outlined text-4xl" data-weight="fill">filter_vintage</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Environmental</h3>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Renewable energy transition across all production sites.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Zero-waste manufacturing processes.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Water conservation &amp; purification technology.</span>
+</li>
+</ul>
+</div>
+<!-- Social -->
+<div class="group bg-white p-8 rounded-xl border border-outline-variant/30 hover:border-primary transition-all duration-300">
+<div class="mb-6 text-primary">
+<span class="material-symbols-outlined text-4xl" data-weight="fill">groups</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Social</h3>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Employee safety and mental well-being programs.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Community development &amp; local sourcing.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Fair labor practices &amp; human rights advocacy.</span>
+</li>
+</ul>
+</div>
+<!-- Governance -->
+<div class="group bg-white p-8 rounded-xl border border-outline-variant/30 hover:border-primary transition-all duration-300">
+<div class="mb-6 text-primary">
+<span class="material-symbols-outlined text-4xl" data-weight="fill">balance</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Governance</h3>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Ethical management &amp; anti-corruption protocols.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Transparent reporting and data disclosure.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<span>Strong board oversight and accountability.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Reports Download Section -->
+<section class="py-24 bg-white border-y border-outline-variant/20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-center gap-12">
+<div class="md:w-1/2">
+<h2 class="text-3xl font-black mb-6">Transparency Matters</h2>
+<p class="text-on-surface-variant mb-8 font-body">Access our comprehensive archive of ESG reports, sustainability whitepapers, and ethical management audits. We believe in full disclosure to our stakeholders.</p>
+<div class="space-y-4">
+<div class="flex items-center justify-between p-4 bg-surface-container-low rounded-lg group hover:bg-secondary-container transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">picture_as_pdf</span>
+<span class="font-bold font-label">2024 Integrated Sustainability Report</span>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">download</span>
+</div>
+<div class="flex items-center justify-between p-4 bg-surface-container-low rounded-lg group hover:bg-secondary-container transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">picture_as_pdf</span>
+<span class="font-bold font-label">Environmental Impact Assessment Q3</span>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">download</span>
+</div>
+<div class="flex items-center justify-between p-4 bg-surface-container-low rounded-lg group hover:bg-secondary-container transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">picture_as_pdf</span>
+<span class="font-bold font-label">2024 Ethics &amp; Compliance Charter</span>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">download</span>
+</div>
+</div>
+</div>
+<div class="md:w-1/2">
+<div class="relative rounded-2xl overflow-hidden aspect-video shadow-2xl">
+<img alt="Office Sustainability" class="w-full h-full object-cover" data-alt="Modern corporate office interior with lots of natural light, green indoor plants, and clean minimalist design representing transparent governance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB78nEtSd-Q54AYp3w9ceStJKC4RlfnW_62eQEPPQ98sScIC4sjR_HK3ZSMSwRWWLbfs_YOcCT3HqyxwtYmyM4DsQ9wAulmiR1dzrB6po4MoVyehxKAZxTF6Ur0LojG38APzODr4CdrgEqqXDtLtNyFfpDzrxyblYNR4_BH3Z4g7c98dIG4pLsczUbtv5gIF2JSTS8jV3LLob9bixqO0KoDYVmQth0iYY5JChou9ie8Zap4QCdog_E2vIDECMHUVvj6PgnWZ5qhTJIR"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20 bg-primary-container text-white">
+<div class="max-w-4xl mx-auto px-6 text-center">
+<h2 class="text-3xl font-black mb-6">Build a Sustainable Future Together</h2>
+<p class="text-lg opacity-90 mb-10">Have questions about our ESG initiatives or want to partner with us on a sustainability project? Our team is ready to connect.</p>
+<button class="bg-white text-primary px-10 py-4 rounded-xl font-black hover:scale-105 transition-transform font-label shadow-xl">
+                    Get in Touch
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 transition-colors duration-200">
+<div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex flex-col gap-2">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200 font-lexend">Taeil C&amp;T</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-inter">© 2024 Taeil C&amp;T. All rights reserved.</p>
+</div>
+<div class="flex gap-8 font-inter text-sm">
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-opacity duration-200" href="#">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-opacity duration-200" href="#">Ethical Management</a>
+</div>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-slate-600 hover:text-primary transition-colors" href="#">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- 태일씨앤티 - 사업실적 (모바일) -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Business Performance - Taeil C&amp;T</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Lexend, Inter, Be Vietnam Pro -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=Lexend:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config from Design System -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                            "on-error": "#ffffff",
+                            "tertiary": "#894f37",
+                            "surface-variant": "#dee4db",
+                            "on-primary-fixed": "#00210b",
+                            "surface-container-highest": "#dee4db",
+                            "outline": "#6e7a6e",
+                            "error": "#ba1a1a",
+                            "on-tertiary": "#ffffff",
+                            "surface-container-lowest": "#ffffff",
+                            "surface-container": "#e9f0e6",
+                            "on-secondary-fixed": "#00210b",
+                            "on-secondary-fixed-variant": "#284f32",
+                            "on-primary": "#ffffff",
+                            "inverse-primary": "#6fdc8c",
+                            "inverse-on-surface": "#ecf3e9",
+                            "error-container": "#ffdad6",
+                            "on-secondary": "#ffffff",
+                            "on-tertiary-fixed": "#370e00",
+                            "on-surface": "#171d17",
+                            "on-primary-container": "#ffffff",
+                            "surface-tint": "#006d34",
+                            "surface-container-low": "#eff6ec",
+                            "on-tertiary-container": "#0f0200",
+                            "secondary-fixed-dim": "#a6d1ab",
+                            "secondary-fixed": "#c1edc6",
+                            "secondary-container": "#bfebc3",
+                            "outline-variant": "#bdcabc",
+                            "on-primary-fixed-variant": "#005226",
+                            "tertiary-fixed-dim": "#ffb599",
+                            "primary-fixed": "#8bfaa6",
+                            "primary-fixed-dim": "#6fdc8c",
+                            "primary-container": "#028943",
+                            "on-surface-variant": "#3e4a3f",
+                            "primary": "#006d34",
+                            "on-tertiary-fixed-variant": "#6d3822",
+                            "on-error-container": "#93000a",
+                            "on-background": "#171d17",
+                            "inverse-surface": "#2b322c",
+                            "surface": "#f5fbf1",
+                            "on-secondary-container": "#446b4c",
+                            "surface-container-high": "#e3eae0",
+                            "tertiary-container": "#a7674d",
+                            "tertiary-fixed": "#ffdbce",
+                            "secondary": "#406748",
+                            "background": "#f5fbf1",
+                            "surface-dim": "#d5dcd2",
+                            "surface-bright": "#f5fbf1"
+                    },
+                    "borderRadius": {
+                            "DEFAULT": "0.125rem",
+                            "lg": "0.25rem",
+                            "xl": "0.5rem",
+                            "full": "0.75rem"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                            "headline": ["Lexend", "sans-serif"],
+                            "body": ["Inter", "sans-serif"],
+                            "label": ["Be Vietnam Pro", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        /* Utility to hide scrollbar for horizontal filters */
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface-dim font-body text-on-surface antialiased flex justify-center md:hidden">
+<!-- Mobile Container (Max-W-MD) to simulate mobile view on larger screens during dev, pure white as requested -->
+<div class="w-full max-w-md bg-surface-container-lowest min-h-screen relative pb-24 shadow-2xl flex flex-col">
+<!-- TopAppBar -->
+<header class="bg-white dark:bg-zinc-950 font-lexend antialiased shadow-sm border-b border-zinc-100 dark:border-zinc-800 flex justify-between items-center px-4 h-16 w-full docked full-width top-0 sticky z-50">
+<button class="text-green-500 dark:text-green-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors active:opacity-70 transition-opacity p-2 -ml-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+<div class="text-xl font-bold tracking-tight text-green-600 dark:text-green-400 font-headline truncate px-2">
+                Taeil C&amp;T
+            </div>
+<button class="text-green-500 dark:text-green-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors active:opacity-70 transition-opacity p-2 -mr-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">notifications</span>
+</button>
+</header>
+<!-- Main Content -->
+<main class="flex-1 overflow-y-auto">
+<!-- Page Header & Stats Block -->
+<section class="px-4 pt-6 pb-4 bg-surface-container-low rounded-b-xl border-b border-outline-variant/20 shadow-sm relative z-10">
+<h1 class="font-headline text-2xl font-bold text-on-surface mb-6">Business Performance</h1>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-center">
+<p class="font-label text-xs text-on-surface-variant mb-1 font-medium">Total Revenue (YTD)</p>
+<p class="font-headline text-2xl font-bold text-primary tracking-tight">$4.2B</p>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-center">
+<p class="font-label text-xs text-on-surface-variant mb-1 font-medium">Active Sites</p>
+<p class="font-headline text-2xl font-bold text-secondary tracking-tight">142</p>
+</div>
+<div class="col-span-2 bg-primary text-on-primary p-5 rounded-xl shadow-sm flex items-center justify-between relative overflow-hidden">
+<div class="absolute -right-6 -top-6 opacity-20">
+<span class="material-symbols-outlined" style="font-size: 120px;">domain</span>
+</div>
+<div class="relative z-10">
+<p class="font-label text-xs text-primary-fixed mb-1 font-medium uppercase tracking-wider">Completed Projects</p>
+<p class="font-headline text-3xl font-bold">850+</p>
+</div>
+<div class="relative z-10 bg-on-primary/20 p-2 rounded-lg backdrop-blur-sm">
+<span class="material-symbols-outlined text-on-primary">trending_up</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Filter Bar -->
+<section class="px-4 py-3 sticky top-16 bg-surface-container-lowest/95 backdrop-blur-md z-40 border-b border-surface-container-highest">
+<div class="flex space-x-2 overflow-x-auto pb-1 scrollbar-hide items-center">
+<button class="bg-primary text-on-primary font-label text-[13px] font-semibold px-5 py-2 rounded-full whitespace-nowrap shadow-sm">All Projects</button>
+<button class="bg-surface text-on-surface-variant font-label text-[13px] font-medium px-5 py-2 rounded-full whitespace-nowrap border border-outline-variant/50 hover:bg-surface-container-low transition-colors">Commercial</button>
+<button class="bg-surface text-on-surface-variant font-label text-[13px] font-medium px-5 py-2 rounded-full whitespace-nowrap border border-outline-variant/50 hover:bg-surface-container-low transition-colors">Infrastructure</button>
+<button class="bg-surface text-on-surface-variant font-label text-[13px] font-medium px-5 py-2 rounded-full whitespace-nowrap border border-outline-variant/50 hover:bg-surface-container-low transition-colors">Residential</button>
+</div>
+</section>
+<!-- Project Cards List -->
+<section class="px-4 py-6 space-y-6">
+<!-- Project Card 1 -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/30 flex flex-col group">
+<div class="h-56 bg-surface-container w-full relative overflow-hidden">
+<img alt="Seoul Metro Extension Construction" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="high angle view of a massive modern rail tunnel construction site, heavy machinery, steel girders, dramatic lighting, cinematic engineering shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDkTAGE1FlZo1YQHQbZfMonth-OSMDOWKMDQo3AFQHpqvWgEmVoN9jIvfoPKW0ZbzQHZ2dGLQKB16r-cdsZalzbvk9PB2syJGQxb3SZM0zXSyjGuA0sV435xXgzDIAFftq8T6clLzJhhwFnM38lIbZ526QWV-YM2HwaeE07WOUE3z6DAAbWchJCvkTUbYneILQkwNSb1YFyys2PcV1J8kmpMImDuVfJFD9p9y9sHbo-O1kG_stYvLOIrHJCRyP3WNibxHEra6FEdS4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary text-[10px] font-bold font-label px-2.5 py-1 rounded shadow-sm uppercase tracking-wider">In Progress</div>
+</div>
+<div class="p-5">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-1.5 leading-tight">Seoul Metro Extension Phase 2</h3>
+<p class="font-body text-sm text-on-surface-variant mb-4 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">location_on</span> Seoul, South Korea
+                        </p>
+<div class="flex justify-between items-end bg-surface-container-low p-3 rounded-lg border border-outline-variant/20">
+<div>
+<p class="font-label text-[10px] text-on-surface-variant font-semibold uppercase tracking-wider mb-0.5">Contract Value</p>
+<p class="font-headline font-bold text-primary text-lg">$850M</p>
+</div>
+<div class="text-right">
+<p class="font-label text-[10px] text-on-surface-variant font-semibold uppercase tracking-wider mb-0.5">Completion</p>
+<p class="font-body text-sm font-semibold text-on-surface">Q4 2026</p>
+</div>
+</div>
+</div>
+</article>
+<!-- Project Card 2 -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/30 flex flex-col group">
+<div class="h-56 bg-surface-container w-full relative overflow-hidden">
+<img alt="Global Tech Center Hub" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="sleek modern glass corporate headquarters building reflecting sunlight, low angle shot looking up, clear blue sky, architectural precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVen8fpcGdvLOXij1-mlaU2ZH3zjHDW24xhWHk47tNiZl8ZfIHxybiEPiVF2VO0Yrx5kRGrLK7MYilBZCB0BkZN8kQOOw7XIFVidVYMgwHoPPr79Pgj0eXWRf-YCKLUr0P8bbzQ2IR3IH7Yh0GzcIZLDj3owD-5ZiY-vq87nOALDbbjnEJsJhtRahjI2tlyUrMmWNzyQQmBUtTeVfFGMlNE1CY1_rcifsNdccqr-J8P-gr00xfHQGVXwf646bx1PkWN7_cwIg6ueq2"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 bg-surface-container-lowest text-on-surface text-[10px] font-bold font-label px-2.5 py-1 rounded shadow-sm uppercase tracking-wider border border-outline-variant/50">Completed</div>
+</div>
+<div class="p-5">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-1.5 leading-tight">Global Tech Center Hub</h3>
+<p class="font-body text-sm text-on-surface-variant mb-4 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">location_on</span> Pangyo, South Korea
+                        </p>
+<div class="flex justify-between items-end bg-surface-container-low p-3 rounded-lg border border-outline-variant/20">
+<div>
+<p class="font-label text-[10px] text-on-surface-variant font-semibold uppercase tracking-wider mb-0.5">Final Value</p>
+<p class="font-headline font-bold text-on-surface text-lg">$420M</p>
+</div>
+<div class="text-right">
+<p class="font-label text-[10px] text-on-surface-variant font-semibold uppercase tracking-wider mb-0.5">Delivered</p>
+<p class="font-body text-sm font-semibold text-secondary">March 2024</p>
+</div>
+</div>
+</div>
+</article>
+<!-- Project Card 3 -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/30 flex flex-col group">
+<div class="h-56 bg-surface-container w-full relative overflow-hidden">
+<img alt="Incheon Port Modernization" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="large scale industrial port infrastructure with massive shipping cranes at sunset, ocean waves, warm glowing light, logistics and engineering" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC01b4OuHxR2ajEhCWXYWpRTN6GVt7CNQ_7ogWHLOXBA-hknRKmtseby3-IBqR5afS6LhYaUGerOJFEK_gHa5OhRkBGBVWVNo7abYXo7hPs-uFJvatleIzj3L3vq4IIcvGGoLu1-93zBJ8wzlWz_xwf-sP5WzfOJT8Yan5uN8miDnk959scP-XdJYk8vsjqgYkgpqoqvHejiXZV8GhzphValvXq1ee_MrLplZhLt77JMIJyiINIgLKWFa02mW6bbw6gg5fXRk8_CHk4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary text-[10px] font-bold font-label px-2.5 py-1 rounded shadow-sm uppercase tracking-wider">In Progress</div>
+</div>
+<div class="p-5">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-1.5 leading-tight">Incheon Port Modernization</h3>
+<p class="font-body text-sm text-on-surface-variant mb-4 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">location_on</span> Incheon, South Korea
+                        </p>
+<div class="flex justify-between items-end bg-surface-container-low p-3 rounded-lg border border-outline-variant/20">
+<div>
+<p class="font-label text-[10px] text-on-surface-variant font-semibold uppercase tracking-wider mb-0.5">Contract Value</p>
+<p class="font-headline font-bold text-primary text-lg">$1.2B</p>
+</div>
+<div class="text-right">
+<p class="font-label text-[10px] text-on-surface-variant font-semibold uppercase tracking-wider mb-0.5">Completion</p>
+<p class="font-body text-sm font-semibold text-on-surface">Q2 2028</p>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div class="h-8 w-full bg-transparent"></div> <!-- Bottom padding spacer -->
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-white/90 dark:bg-zinc-950/90 backdrop-blur-md text-[10px] font-medium font-inter shadow-[0_-2px_10px_rgba(0,0,0,0.05)] border-t border-zinc-100 dark:border-zinc-800 fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 docked full-width bottom-0 rounded-t-md max-w-md mx-auto right-0">
+<!-- Home -->
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150 w-16 gap-1">
+<span class="material-symbols-outlined text-[24px]">home</span>
+<span>Home</span>
+</button>
+<!-- Business (Active) -->
+<button class="flex flex-col items-center justify-center text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 rounded-xl px-3 py-1 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150 w-16 gap-1">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">business_center</span>
+<span>Business</span>
+</button>
+<!-- Tech -->
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150 w-16 gap-1">
+<span class="material-symbols-outlined text-[24px]">precision_manufacturing</span>
+<span>Tech</span>
+</button>
+<!-- PR -->
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150 w-16 gap-1">
+<span class="material-symbols-outlined text-[24px]">newspaper</span>
+<span>PR</span>
+</button>
+</nav>
+</div>
+</body></html>
+
+<!-- 태일씨앤티 - 기술혁신 (모바일) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Taeil C&amp;T - Tech Innovation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "tertiary": "#894f37",
+                        "surface-variant": "#dee4db",
+                        "on-primary-fixed": "#00210b",
+                        "surface-container-highest": "#dee4db",
+                        "outline": "#6e7a6e",
+                        "error": "#ba1a1a",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container": "#e9f0e6",
+                        "on-secondary-fixed": "#00210b",
+                        "on-secondary-fixed-variant": "#284f32",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#6fdc8c",
+                        "inverse-on-surface": "#ecf3e9",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed": "#370e00",
+                        "on-surface": "#171d17",
+                        "on-primary-container": "#ffffff",
+                        "surface-tint": "#006d34",
+                        "surface-container-low": "#eff6ec",
+                        "on-tertiary-container": "#0f0200",
+                        "secondary-fixed-dim": "#a6d1ab",
+                        "secondary-fixed": "#c1edc6",
+                        "secondary-container": "#bfebc3",
+                        "outline-variant": "#bdcabc",
+                        "on-primary-fixed-variant": "#005226",
+                        "tertiary-fixed-dim": "#ffb599",
+                        "primary-fixed": "#8bfaa6",
+                        "primary-fixed-dim": "#6fdc8c",
+                        "primary-container": "#028943",
+                        "on-surface-variant": "#3e4a3f",
+                        "primary": "#006d34",
+                        "on-tertiary-fixed-variant": "#6d3822",
+                        "on-error-container": "#93000a",
+                        "on-background": "#171d17",
+                        "inverse-surface": "#2b322c",
+                        "surface": "#ffffff", /* Override for pure white requested */
+                        "on-secondary-container": "#446b4c",
+                        "surface-container-high": "#e3eae0",
+                        "tertiary-container": "#a7674d",
+                        "tertiary-fixed": "#ffdbce",
+                        "secondary": "#406748",
+                        "background": "#ffffff", /* Override for pure white requested */
+                        "surface-dim": "#d5dcd2",
+                        "surface-bright": "#f5fbf1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Lexend", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Be Vietnam Pro", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Lexend', sans-serif; }
+        .label-text { font-family: 'Be Vietnam Pro', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-20 pt-16">
+<!-- TopAppBar -->
+<header class="bg-white dark:bg-zinc-950 text-green-500 dark:text-green-400 font-lexend antialiased docked full-width top-0 border-b border-zinc-100 dark:border-zinc-800 shadow-sm flex justify-between items-center px-4 h-16 w-full fixed z-50">
+<button class="active:opacity-70 transition-opacity hover:bg-zinc-50 dark:hover:bg-zinc-900 p-2 rounded-full">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<span class="text-xl font-bold tracking-tight text-green-600 dark:text-green-400">Taeil C&amp;T</span>
+<button class="active:opacity-70 transition-opacity hover:bg-zinc-50 dark:hover:bg-zinc-900 p-2 rounded-full">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</header>
+<main class="px-4 py-6 space-y-10">
+<!-- Hero Section: R&D Intro -->
+<section class="space-y-4">
+<div class="relative h-64 rounded-xl overflow-hidden shadow-sm">
+<img alt="Engineers working in a modern, bright R&amp;D facility with advanced technology" class="w-full h-full object-cover" data-alt="Modern bright R&amp;D facility with engineers reviewing technical blueprints and advanced construction technology on digital screens" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz3STezRB4-RJYdxNeSwpUZBDeyf75334fByDk_xL6qJSvHSGJhSraksGfdDFw7ABuJgz72b0vUzHsu-X1s_2JgdSfHm9mlAlhH9Hap9KYtbP2QqY8pUaV_18ZM2EO52Rl0jZQE--QY3Xz4KzLlpXfQLsQT5L9UnowfguePX4kG589v4_ndbfC2v_ibyenXzyfQFrsiu0KZ9OQDUsHHp-C7ecejj9M35olJTv8VAVxvtiM9nj0IHeUk6R_U7ShfNketJG4nC3qx4Ii"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full">
+<span class="label-text text-inverse-on-surface text-xs font-semibold tracking-wider uppercase mb-1 block opacity-90">R&amp;D Center</span>
+<h1 class="font-headline text-3xl text-on-primary font-bold leading-tight">Driving the Future of Construction</h1>
+</div>
+</div>
+<p class="font-body text-on-surface-variant text-sm leading-relaxed">
+                Our central R&amp;D hub is dedicated to pioneering smart construction methodologies, focusing on automation, sustainable materials, and digital twin technology to redefine urban infrastructure.
+            </p>
+</section>
+<!-- Smart Construction Ecosystem -->
+<section class="space-y-4">
+<h2 class="font-headline text-xl text-on-surface font-semibold">Smart Ecosystem</h2>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-lowest border border-outline-variant p-4 rounded-xl shadow-sm flex flex-col items-center text-center space-y-3">
+<div class="w-12 h-12 bg-primary-container/10 rounded-full flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="architecture">architecture</span>
+</div>
+<div>
+<h3 class="font-headline text-sm font-semibold text-on-surface">BIM Integration</h3>
+<p class="font-body text-xs text-on-surface-variant mt-1">Full-lifecycle digital modeling</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-4 rounded-xl shadow-sm flex flex-col items-center text-center space-y-3">
+<div class="w-12 h-12 bg-secondary-container/20 rounded-full flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl" data-icon="memory">memory</span>
+</div>
+<div>
+<h3 class="font-headline text-sm font-semibold text-on-surface">AI Analytics</h3>
+<p class="font-body text-xs text-on-surface-variant mt-1">Predictive safety &amp; efficiency</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-4 rounded-xl shadow-sm flex flex-col items-center text-center space-y-3">
+<div class="w-12 h-12 bg-tertiary-container/10 rounded-full flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-2xl" data-icon="precision_manufacturing">precision_manufacturing</span>
+</div>
+<div>
+<h3 class="font-headline text-sm font-semibold text-on-surface">Automation</h3>
+<p class="font-body text-xs text-on-surface-variant mt-1">Robotics in site execution</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-4 rounded-xl shadow-sm flex flex-col items-center text-center space-y-3">
+<div class="w-12 h-12 bg-primary-container/10 rounded-full flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="eco">eco</span>
+</div>
+<div>
+<h3 class="font-headline text-sm font-semibold text-on-surface">Eco-Materials</h3>
+<p class="font-body text-xs text-on-surface-variant mt-1">Carbon-reducing solutions</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats & IP -->
+<section class="space-y-4">
+<h2 class="font-headline text-xl text-on-surface font-semibold">Intellectual Property</h2>
+<div class="bg-surface-container-low rounded-xl p-5 shadow-sm space-y-4">
+<div class="flex items-center justify-between border-b border-outline-variant/30 pb-4">
+<div class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-primary" data-icon="lightbulb">lightbulb</span>
+<span class="font-label text-sm font-medium text-on-surface">Patents Registered</span>
+</div>
+<span class="font-headline text-2xl font-bold text-primary">142</span>
+</div>
+<div class="flex items-center justify-between border-b border-outline-variant/30 pb-4">
+<div class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-secondary" data-icon="science">science</span>
+<span class="font-label text-sm font-medium text-on-surface">Active R&amp;D Projects</span>
+</div>
+<span class="font-headline text-2xl font-bold text-secondary">38</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-tertiary" data-icon="workspace_premium">workspace_premium</span>
+<span class="font-label text-sm font-medium text-on-surface">Industry Awards</span>
+</div>
+<span class="font-headline text-2xl font-bold text-tertiary">25+</span>
+</div>
+</div>
+</section>
+<!-- Innovation Roadmap -->
+<section class="space-y-4 pb-4">
+<h2 class="font-headline text-xl text-on-surface font-semibold">Innovation Roadmap</h2>
+<div class="relative border-l-2 border-primary/20 ml-3 pl-6 space-y-8 py-2">
+<div class="relative">
+<div class="absolute -left-[31px] top-1 w-4 h-4 bg-primary rounded-full border-4 border-surface shadow-sm"></div>
+<h3 class="font-headline text-sm font-semibold text-primary">2024</h3>
+<p class="font-body text-sm text-on-surface mt-1">Full deployment of AI-driven safety monitoring across all major urban sites.</p>
+</div>
+<div class="relative">
+<div class="absolute -left-[31px] top-1 w-4 h-4 bg-secondary-container rounded-full border-4 border-surface shadow-sm"></div>
+<h3 class="font-headline text-sm font-semibold text-on-surface-variant">2025</h3>
+<p class="font-body text-sm text-on-surface-variant mt-1">Introduction of proprietary low-carbon concrete mixture in structural projects.</p>
+</div>
+<div class="relative">
+<div class="absolute -left-[31px] top-1 w-4 h-4 bg-surface-variant rounded-full border-4 border-surface shadow-sm"></div>
+<h3 class="font-headline text-sm font-semibold text-on-surface-variant">2026+</h3>
+<p class="font-body text-sm text-on-surface-variant mt-1">Integration of autonomous robotic execution for high-risk modular assembly.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-white/90 dark:bg-zinc-950/90 backdrop-blur-md text-[10px] font-medium font-inter docked full-width bottom-0 rounded-t-md border-t border-zinc-100 dark:border-zinc-800 shadow-[0_-2px_10px_rgba(0,0,0,0.05)] fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 md:hidden">
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="home">home</span>
+<span class="label-text">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="business_center">business_center</span>
+<span class="label-text">Business</span>
+</button>
+<!-- Active State for Tech Innovation -->
+<button class="flex flex-col items-center justify-center text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 rounded-xl px-3 py-1 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="precision_manufacturing" data-weight="fill" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+<span class="label-text">Tech</span>
+</button>
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="newspaper">newspaper</span>
+<span class="label-text">PR</span>
+</button>
+</nav>
+</body></html>
+
+<!-- 태일씨앤티 - ESG경영 (모바일) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Taeil C&amp;T - ESG Management</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800;900&amp;family=Inter:wght@400;500;600;700&amp;family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "tertiary": "#894f37",
+                        "surface-variant": "#dee4db",
+                        "on-primary-fixed": "#00210b",
+                        "surface-container-highest": "#dee4db",
+                        "outline": "#6e7a6e",
+                        "error": "#ba1a1a",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container": "#e9f0e6",
+                        "on-secondary-fixed": "#00210b",
+                        "on-secondary-fixed-variant": "#284f32",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#6fdc8c",
+                        "inverse-on-surface": "#ecf3e9",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed": "#370e00",
+                        "on-surface": "#171d17",
+                        "on-primary-container": "#ffffff",
+                        "surface-tint": "#006d34",
+                        "surface-container-low": "#eff6ec",
+                        "on-tertiary-container": "#0f0200",
+                        "secondary-fixed-dim": "#a6d1ab",
+                        "secondary-fixed": "#c1edc6",
+                        "secondary-container": "#bfebc3",
+                        "outline-variant": "#bdcabc",
+                        "on-primary-fixed-variant": "#005226",
+                        "tertiary-fixed-dim": "#ffb599",
+                        "primary-fixed": "#8bfaa6",
+                        "primary-fixed-dim": "#6fdc8c",
+                        "primary-container": "#028943",
+                        "on-surface-variant": "#3e4a3f",
+                        "primary": "#006d34",
+                        "on-tertiary-fixed-variant": "#6d3822",
+                        "on-error-container": "#93000a",
+                        "on-background": "#171d17",
+                        "inverse-surface": "#2b322c",
+                        "surface": "#f5fbf1",
+                        "on-secondary-container": "#446b4c",
+                        "surface-container-high": "#e3eae0",
+                        "tertiary-container": "#a7674d",
+                        "tertiary-fixed": "#ffdbce",
+                        "secondary": "#406748",
+                        "background": "#f5fbf1",
+                        "surface-dim": "#d5dcd2",
+                        "surface-bright": "#f5fbf1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": ["Lexend"],
+                        "body": ["Inter"],
+                        "label": ["Be Vietnam Pro"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Lexend', sans-serif; }
+        .label-text { font-family: 'Be Vietnam Pro', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface-container-lowest text-on-surface antialiased flex flex-col min-h-screen">
+<!-- TopAppBar -->
+<header class="bg-surface-container-lowest text-primary font-headline antialiased docked full-width top-0 shadow-sm flex justify-between items-center px-4 h-16 w-full sticky z-40">
+<button aria-label="Menu" class="p-2 hover:bg-surface-container transition-colors rounded-full active:opacity-70 transition-opacity">
+<span class="material-symbols-outlined text-on-surface">menu</span>
+</button>
+<h1 class="text-xl font-bold tracking-tight text-primary">Taeil C&amp;T</h1>
+<button aria-label="Notifications" class="p-2 hover:bg-surface-container transition-colors rounded-full active:opacity-70 transition-opacity">
+<span class="material-symbols-outlined text-on-surface">notifications</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow pb-24 overflow-y-auto">
+<!-- Hero Section -->
+<section class="relative w-full h-[397px] bg-surface-container-low overflow-hidden">
+<img alt="Sustainability" class="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-multiply" data-alt="lush green forest canopy seen from above with sunlight filtering through the leaves emphasizing nature and sustainability" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe_nZtkJG-2iN93pfAzN5rQFvE-8Nkt-5mIEjvowIcvGiWs960Qg4UZn244KYpx3GWEtQKy0XV16466VD5KWqtCI5Q32LiTJp0-_fl6XZy5zTc62uQ4xK8nuOz7gyqzqCnn_xwc8x4X7XeMl0drCdt3cmwmAx9eJJOFNmUp_F9CHQn1GAIRu77mPfGc_0bQrn05H8XcUwLopyk8NmAV8AH9oRa0L80uS2karyKW4f7GtOKNK1MVaRMTxn-nMF1ayqA8fvdLCQvO86U"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 w-full p-6">
+<span class="label-text text-sm font-semibold text-primary uppercase tracking-wider mb-2 block">Our Vision</span>
+<h2 class="text-3xl font-extrabold text-on-surface leading-tight mb-2">Sustainable Future,<br/>Together.</h2>
+<p class="font-body text-on-surface-variant text-sm max-w-[85%]">Building a greener tomorrow through responsible construction and innovation.</p>
+</div>
+</section>
+<!-- Key Pillars Grid -->
+<section class="px-4 py-8">
+<h3 class="font-headline text-lg font-bold text-on-surface mb-4">ESG Pillars</h3>
+<div class="grid grid-cols-2 gap-4">
+<!-- Environment -->
+<div class="bg-surface-container p-4 rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between aspect-square relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-3 opacity-20 group-hover:opacity-100 transition-opacity duration-300">
+<span class="material-symbols-outlined text-4xl text-primary" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<div class="z-10 mt-auto">
+<span class="material-symbols-outlined text-primary mb-2">eco</span>
+<h4 class="font-headline font-semibold text-on-surface text-sm">Environmental</h4>
+<p class="font-body text-xs text-on-surface-variant mt-1 line-clamp-2">Carbon neutrality by 2040.</p>
+</div>
+</div>
+<!-- Social -->
+<div class="bg-surface-container p-4 rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between aspect-square relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-3 opacity-20 group-hover:opacity-100 transition-opacity duration-300">
+<span class="material-symbols-outlined text-4xl text-secondary" style="font-variation-settings: 'FILL' 1;">diversity_3</span>
+</div>
+<div class="z-10 mt-auto">
+<span class="material-symbols-outlined text-secondary mb-2">diversity_3</span>
+<h4 class="font-headline font-semibold text-on-surface text-sm">Social</h4>
+<p class="font-body text-xs text-on-surface-variant mt-1 line-clamp-2">Zero accidents, community growth.</p>
+</div>
+</div>
+<!-- Governance -->
+<div class="bg-surface-container p-4 rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between aspect-square relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-3 opacity-20 group-hover:opacity-100 transition-opacity duration-300">
+<span class="material-symbols-outlined text-4xl text-tertiary" style="font-variation-settings: 'FILL' 1;">gavel</span>
+</div>
+<div class="z-10 mt-auto">
+<span class="material-symbols-outlined text-tertiary mb-2">gavel</span>
+<h4 class="font-headline font-semibold text-on-surface text-sm">Governance</h4>
+<p class="font-body text-xs text-on-surface-variant mt-1 line-clamp-2">Transparent &amp; ethical leadership.</p>
+</div>
+</div>
+<!-- Impact Summary -->
+<div class="bg-primary-container p-4 rounded-xl shadow-sm border border-primary/20 flex flex-col justify-between aspect-square relative overflow-hidden">
+<div class="z-10 flex flex-col h-full justify-center items-center text-center">
+<span class="font-headline font-black text-3xl text-on-primary-container mb-1">-45%</span>
+<p class="font-body text-xs text-on-primary-container/80">Emissions Reduction Since 2018</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Impact at a Glance -->
+<section class="px-4 py-6 bg-surface-container-low rounded-t-3xl border-t border-outline-variant/20">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-headline text-lg font-bold text-on-surface">Impact at a Glance</h3>
+<button class="text-primary text-sm font-semibold flex items-center hover:text-primary-fixed-variant transition-colors">
+                    View Data <span class="material-symbols-outlined text-sm ml-1">arrow_forward</span>
+</button>
+</div>
+<div class="space-y-4">
+<!-- Stat Card 1 -->
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border border-outline-variant/30 flex items-center">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center mr-4 flex-shrink-0">
+<span class="material-symbols-outlined text-on-primary-container" style="font-variation-settings: 'FILL' 1;">forest</span>
+</div>
+<div>
+<p class="font-body text-xs text-on-surface-variant mb-1">Trees Planted Globally</p>
+<p class="font-headline font-bold text-xl text-on-surface">1.2 Million</p>
+</div>
+</div>
+<!-- Stat Card 2 -->
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border border-outline-variant/30 flex items-center">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center mr-4 flex-shrink-0">
+<span class="material-symbols-outlined text-on-secondary-container" style="font-variation-settings: 'FILL' 1;">health_and_safety</span>
+</div>
+<div>
+<p class="font-body text-xs text-on-surface-variant mb-1">Safety Record</p>
+<p class="font-headline font-bold text-xl text-on-surface">99.8% Incident Free</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Reports & Action -->
+<section class="px-4 py-8">
+<h3 class="font-headline text-lg font-bold text-on-surface mb-4">Transparency</h3>
+<div class="bg-surface-container p-5 rounded-xl shadow-sm border border-outline-variant/30 mb-6 flex justify-between items-center cursor-pointer hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-2xl">description</span>
+<div>
+<h4 class="font-headline font-semibold text-on-surface text-sm">2023 Sustainability Report</h4>
+<p class="font-body text-xs text-on-surface-variant">PDF • 12 MB</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">download</span>
+</div>
+<div class="bg-primary p-6 rounded-2xl text-on-primary relative overflow-hidden">
+<div class="absolute top-0 right-0 -mt-4 -mr-4 w-32 h-32 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+<h4 class="font-headline text-lg font-bold mb-2 relative z-10">Partner with us for a sustainable future.</h4>
+<p class="font-body text-sm text-on-primary/80 mb-6 relative z-10 max-w-[90%]">Contact our ESG department to learn more about our initiatives and partnerships.</p>
+<button class="w-full py-3 bg-on-primary text-primary font-label font-bold rounded-full hover:bg-primary-fixed transition-colors shadow-sm relative z-10 active:scale-95 duration-150">
+                    Contact ESG Team
+                </button>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-surface-container-lowest/90 backdrop-blur-md text-primary text-[10px] font-medium font-inter shadow-[0_-2px_10px_rgba(0,0,0,0.05)] fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 md:hidden">
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 duration-150 group">
+<span class="material-symbols-outlined mb-1 group-hover:text-primary transition-colors">home</span>
+<span class="label-text">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 duration-150 group">
+<span class="material-symbols-outlined mb-1 group-hover:text-primary transition-colors">business_center</span>
+<span class="label-text">Business</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 duration-150 group">
+<span class="material-symbols-outlined mb-1 group-hover:text-primary transition-colors">precision_manufacturing</span>
+<span class="label-text">Tech</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 duration-150 group">
+<span class="material-symbols-outlined mb-1 group-hover:text-primary transition-colors">newspaper</span>
+<span class="label-text">PR</span>
+</button>
+</nav>
+</body></html>
+
+<!-- 태일씨앤티 - 메인 (모바일) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Taeil C&amp;T - Main Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;800&amp;family=Inter:wght@400;500&amp;family=Be+Vietnam+Pro:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-error": "#ffffff",
+                      "tertiary": "#894f37",
+                      "surface-variant": "#dee4db",
+                      "on-primary-fixed": "#00210b",
+                      "surface-container-highest": "#dee4db",
+                      "outline": "#6e7a6e",
+                      "error": "#ba1a1a",
+                      "on-tertiary": "#ffffff",
+                      "surface-container-lowest": "#ffffff",
+                      "surface-container": "#e9f0e6",
+                      "on-secondary-fixed": "#00210b",
+                      "on-secondary-fixed-variant": "#284f32",
+                      "on-primary": "#ffffff",
+                      "inverse-primary": "#6fdc8c",
+                      "inverse-on-surface": "#ecf3e9",
+                      "error-container": "#ffdad6",
+                      "on-secondary": "#ffffff",
+                      "on-tertiary-fixed": "#370e00",
+                      "on-surface": "#171d17",
+                      "on-primary-container": "#ffffff",
+                      "surface-tint": "#006d34",
+                      "surface-container-low": "#eff6ec",
+                      "on-tertiary-container": "#0f0200",
+                      "secondary-fixed-dim": "#a6d1ab",
+                      "secondary-fixed": "#c1edc6",
+                      "secondary-container": "#bfebc3",
+                      "outline-variant": "#bdcabc",
+                      "on-primary-fixed-variant": "#005226",
+                      "tertiary-fixed-dim": "#ffb599",
+                      "primary-fixed": "#8bfaa6",
+                      "primary-fixed-dim": "#6fdc8c",
+                      "primary-container": "#028943",
+                      "on-surface-variant": "#3e4a3f",
+                      "primary": "#006d34",
+                      "on-tertiary-fixed-variant": "#6d3822",
+                      "on-error-container": "#93000a",
+                      "on-background": "#171d17",
+                      "inverse-surface": "#2b322c",
+                      "surface": "#f5fbf1",
+                      "on-secondary-container": "#446b4c",
+                      "surface-container-high": "#e3eae0",
+                      "tertiary-container": "#a7674d",
+                      "tertiary-fixed": "#ffdbce",
+                      "secondary": "#406748",
+                      "background": "#f5fbf1",
+                      "surface-dim": "#d5dcd2",
+                      "surface-bright": "#f5fbf1"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {},
+              "fontFamily": {
+                      "headline": [
+                              "Lexend"
+                      ],
+                      "body": [
+                              "Inter"
+                      ],
+                      "label": [
+                              "Be Vietnam Pro"
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface-container-lowest text-on-surface font-body pb-20 pt-16">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-white dark:bg-zinc-950 font-lexend antialiased shadow-sm border-b border-zinc-100 dark:border-zinc-800 flex justify-between items-center px-4 h-16 transition-colors">
+<button class="text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 active:opacity-70 transition-opacity p-2 rounded-full">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<div class="text-xl font-bold tracking-tight text-green-600 dark:text-green-400">
+            Taeil C&amp;T
+        </div>
+<button class="text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 active:opacity-70 transition-opacity p-2 rounded-full">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="w-full">
+<!-- Hero Section -->
+<section class="relative w-full h-[530px] min-h-[400px] flex items-end pb-12 px-6 bg-surface-container-highest" data-alt="Modern high-rise office building facade reaching towards a clear blue sky, capturing themes of corporate growth, stability, and architectural precision in sunlight" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC1asHLvf9OVbEoEQ_eon6ry3ja3jkVSHFVHTfRkTngk15iakQoaIWZQYfVPGbaPy8ZtSPpV1vkGXQWbIoVLn24gPkw0wh9G2ik2j-mfKF4YxvANwjk83Ob-Ij6hFzgxWqR53IqfviuGq6fOGbKrXekwEC5u1uGnNC6rdK-78HTzeh79cAyDoC8LkvnFs8C4VqLgqOa_G09a7_S2AKKV06WP7_niZcZxynT7GY8HtfV2KqLnSFMl5sAOJuu0y0Ulmxq05kcorUhUYb6'); background-size: cover; background-position: center;">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+<div class="relative z-10 w-full max-w-lg">
+<span class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-primary-fixed bg-on-primary-fixed/50 backdrop-blur-sm rounded-full font-label uppercase">
+                    Innovating Tomorrow
+                </span>
+<h1 class="text-4xl font-extrabold text-white font-headline leading-tight mb-3">
+                    Building a Sustainable Future
+                </h1>
+<p class="text-surface-variant font-body text-sm leading-relaxed max-w-[90%]">
+                    Leading the industry with advanced engineering solutions and a commitment to environmental stewardship.
+                </p>
+</div>
+</section>
+<!-- Key Metrics Grid -->
+<section class="px-4 py-8">
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-5 rounded-lg border border-surface-container-high shadow-sm">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl">trending_up</span>
+<p class="text-xs text-on-surface-variant font-label uppercase tracking-wide mb-1">Q3 Revenue</p>
+<p class="text-2xl font-bold font-headline text-on-surface">$1.2B</p>
+<p class="text-xs text-primary font-medium mt-1 flex items-center">
+<span class="material-symbols-outlined text-[14px] mr-1">arrow_upward</span> 14% YoY
+                    </p>
+</div>
+<div class="bg-surface-container-low p-5 rounded-lg border border-surface-container-high shadow-sm">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl">groups</span>
+<p class="text-xs text-on-surface-variant font-label uppercase tracking-wide mb-1">Global Team</p>
+<p class="text-2xl font-bold font-headline text-on-surface">4,500+</p>
+<p class="text-xs text-on-surface-variant font-medium mt-1">Across 12 countries</p>
+</div>
+<div class="bg-surface-container-low p-5 rounded-lg border border-surface-container-high shadow-sm">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl">eco</span>
+<p class="text-xs text-on-surface-variant font-label uppercase tracking-wide mb-1">Carbon Reduction</p>
+<p class="text-2xl font-bold font-headline text-on-surface">-22%</p>
+<p class="text-xs text-primary font-medium mt-1">Ahead of 2025 goal</p>
+</div>
+<div class="bg-primary p-5 rounded-lg border border-primary-container shadow-md text-on-primary">
+<span class="material-symbols-outlined text-primary-fixed mb-2 text-3xl">lightbulb</span>
+<p class="text-xs text-primary-fixed-dim font-label uppercase tracking-wide mb-1">Active Patents</p>
+<p class="text-2xl font-bold font-headline text-on-primary">128</p>
+<p class="text-xs text-primary-fixed font-medium mt-1">Industry leading</p>
+</div>
+</div>
+</section>
+<!-- Latest News Bento -->
+<section class="px-4 py-6">
+<div class="flex justify-between items-center mb-4">
+<h2 class="text-xl font-bold font-headline text-on-surface">Latest Updates</h2>
+<a class="text-sm font-label text-primary font-semibold flex items-center" href="#">View All <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span></a>
+</div>
+<div class="flex flex-col gap-4">
+<div class="relative bg-surface rounded-xl overflow-hidden shadow-sm border border-surface-container-high h-48 flex items-end">
+<div class="absolute inset-0">
+<img alt="Engineers reviewing blueprints on a large construction site with yellow hardhats and high visibility vests under bright daylight" class="w-full h-full object-cover" data-alt="Engineers reviewing blueprints on a large construction site with yellow hardhats and high visibility vests under bright daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6Xfs3nzlg-b4Y9uLghooxXE6f0Ly70J-u4g3nTiNdaWwmdPV9HGnPLLACNg-T0wbUDTyaaU7u7oHz2G1eXTRl6E3o7Lw8hzp7oSiBZucGCTFCZ_PEjlxF57mkmUUoqeaRsEKy9U4rg9--YrzgXjuox2SXwh-AGL-O523kI1gLVuyyJoNASnQmZEufg_en5Xry6YPj34JFq7DgJEgvdDfLiNnzkOhKduy59ZFHNHRT98ijCn5ooW1a5pVq4VRnLLd87lr4dEI7SU0y"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+</div>
+<div class="relative z-10 p-4">
+<span class="inline-block px-2 py-1 mb-2 text-[10px] font-bold tracking-wider text-on-primary bg-primary rounded font-label uppercase">Press Release</span>
+<h3 class="text-white font-headline font-semibold leading-snug">Taeil C&amp;T Secures Major Infrastructure Contract in Southeast Asia</h3>
+<p class="text-surface-variant text-xs mt-1 font-body">Oct 12, 2023</p>
+</div>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl shadow-sm border border-surface-container-high flex gap-4 items-center">
+<div class="w-20 h-20 rounded-lg overflow-hidden shrink-0 bg-surface-container-highest">
+<img alt="Data analytics dashboard displayed on a modern laptop screen showing complex line graphs and financial metrics in a bright office" class="w-full h-full object-cover" data-alt="Data analytics dashboard displayed on a modern laptop screen showing complex line graphs and financial metrics in a bright office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWSHQEPWC9EEbf54GWlIhmJtYcQO6S_hWz_B-424X7So3utXW21PD1BEqORhLqWGbA1t_6qBWwUaNNJhfJUv1HMPLb50ICQOrPK5C6VwNLccicuj2rKysJlZdrwMZhJVtgd64vujL0qhtjboqrCpBHpbbRDROgpYFOsJvkXIsSQIY-RCsmR4lr3vOOHkoVoo_yMv8L7a0r6O2urU5Eg4oLLavDuMAuIIfrl2iWvqs-lhWg2itfmdnPG2G-MuP-ellYlLHE1Ig6ajqm"/>
+</div>
+<div>
+<span class="text-[10px] font-bold tracking-wider text-primary font-label uppercase">Business</span>
+<h4 class="text-on-surface font-headline font-semibold text-sm leading-snug mt-1">Q3 Financial Results Exceed Market Expectations</h4>
+<p class="text-on-surface-variant text-xs mt-1 font-body">Oct 05, 2023</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ESG Management -->
+<section class="px-4 py-8 mb-6">
+<div class="bg-surface-container p-6 rounded-2xl border border-surface-container-high shadow-sm relative overflow-hidden">
+<div class="absolute top-0 right-0 p-4 opacity-10">
+<span class="material-symbols-outlined text-8xl text-primary">eco</span>
+</div>
+<div class="relative z-10">
+<div class="flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-primary bg-primary-container/20 p-2 rounded-full">public</span>
+<h2 class="text-lg font-bold font-headline text-on-surface">ESG Commitment</h2>
+</div>
+<p class="text-sm text-on-surface-variant font-body leading-relaxed mb-4">
+                        Our dedication to sustainable practices drives every decision. We are committed to achieving net-zero emissions by 2040 and fostering inclusive growth.
+                    </p>
+<button class="bg-primary text-on-primary font-label text-sm px-4 py-2 rounded-lg font-semibold shadow-md hover:bg-primary/90 transition-colors">
+                        Read 2023 Report
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 bg-white/90 dark:bg-zinc-950/90 backdrop-blur-md border-t border-zinc-100 dark:border-zinc-800 shadow-[0_-2px_10px_rgba(0,0,0,0.05)] rounded-t-md text-[10px] font-medium font-inter transition-transform duration-150 md:hidden">
+<!-- Active Tab: Home -->
+<a class="flex flex-col items-center justify-center text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 rounded-xl px-3 py-1" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="mt-1">Home</span>
+</a>
+<!-- Inactive Tabs -->
+<a class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300" href="#">
+<span class="material-symbols-outlined">business_center</span>
+<span class="mt-1">Business</span>
+</a>
+<a class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300" href="#">
+<span class="material-symbols-outlined">precision_manufacturing</span>
+<span class="mt-1">Tech</span>
+</a>
+<a class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300" href="#">
+<span class="material-symbols-outlined">newspaper</span>
+<span class="mt-1">PR</span>
+</a>
+</nav>
+</body></html>
+
+<!-- 태일씨앤티 - 회사소개 (모바일) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Taeil C&amp;T - Company Introduction</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-error": "#ffffff",
+                    "tertiary": "#894f37",
+                    "surface-variant": "#dee4db",
+                    "on-primary-fixed": "#00210b",
+                    "surface-container-highest": "#dee4db",
+                    "outline": "#6e7a6e",
+                    "error": "#ba1a1a",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container": "#e9f0e6",
+                    "on-secondary-fixed": "#00210b",
+                    "on-secondary-fixed-variant": "#284f32",
+                    "on-primary": "#ffffff",
+                    "inverse-primary": "#6fdc8c",
+                    "inverse-on-surface": "#ecf3e9",
+                    "error-container": "#ffdad6",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary-fixed": "#370e00",
+                    "on-surface": "#171d17",
+                    "on-primary-container": "#ffffff",
+                    "surface-tint": "#006d34",
+                    "surface-container-low": "#eff6ec",
+                    "on-tertiary-container": "#0f0200",
+                    "secondary-fixed-dim": "#a6d1ab",
+                    "secondary-fixed": "#c1edc6",
+                    "secondary-container": "#bfebc3",
+                    "outline-variant": "#bdcabc",
+                    "on-primary-fixed-variant": "#005226",
+                    "tertiary-fixed-dim": "#ffb599",
+                    "primary-fixed": "#8bfaa6",
+                    "primary-fixed-dim": "#6fdc8c",
+                    "primary-container": "#028943",
+                    "on-surface-variant": "#3e4a3f",
+                    "primary": "#006d34",
+                    "on-tertiary-fixed-variant": "#6d3822",
+                    "on-error-container": "#93000a",
+                    "on-background": "#171d17",
+                    "inverse-surface": "#2b322c",
+                    "surface": "#f5fbf1",
+                    "on-secondary-container": "#446b4c",
+                    "surface-container-high": "#e3eae0",
+                    "tertiary-container": "#a7674d",
+                    "tertiary-fixed": "#ffdbce",
+                    "secondary": "#406748",
+                    "background": "#ffffff", /* Override for pure white background as requested */
+                    "surface-dim": "#d5dcd2",
+                    "surface-bright": "#f5fbf1"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {},
+            "fontFamily": {
+                    "headline": [
+                            "Lexend", "sans-serif"
+                    ],
+                    "body": [
+                            "Inter", "sans-serif"
+                    ],
+                    "label": [
+                            "Be Vietnam Pro", "sans-serif"
+                    ]
+            }
+    },
+        },
+      }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body pb-20">
+<!-- TopAppBar -->
+<header class="bg-white dark:bg-zinc-950 font-lexend antialiased sticky top-0 z-40 shadow-sm border-b border-zinc-100 dark:border-zinc-800">
+<div class="flex justify-between items-center px-4 h-16 w-full">
+<button class="text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors active:opacity-70 p-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="text-xl font-bold tracking-tight text-green-600 dark:text-green-400">Taeil C&amp;T</h1>
+<button class="text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors active:opacity-70 p-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="px-4 py-6 space-y-12">
+<!-- Hero / CEO Message -->
+<section class="space-y-6">
+<div class="text-center space-y-2">
+<h2 class="font-headline text-3xl font-bold text-on-surface">Building the Future</h2>
+<p class="font-body text-on-surface-variant text-sm">A message from our leadership</p>
+</div>
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden shadow-lg">
+<img alt="CEO Portrait" class="w-full h-full object-cover" data-alt="Professional portrait of a confident male CEO in a modern bright office environment, sharp focus, natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATxqeWhu9BFE5QECigM-F2cnvOB90tOLlXrHLaEnBftQqmWbYf3mBMGgCNJQH_07or26E8aUvP2ZzWIconxOTGuNDiWMpDyDkRWtYdkxGss7ZBoQkATWOrybtM65CEQ0ItV3Smw3MhA8b825BxviE6QEPITRKVFPbgA-Osdzcgr7cgg6DmeMzdQncs_yjI6VypBw3NpFAFUyv04lfRljn7TsiZC-U-OFe-5LYRU1jZkT4a3nfcnjBLkmsrxMsMvbt2dOZGPmRBVaPU"/>
+<div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6 pt-12">
+<h3 class="font-headline text-white text-xl font-bold">Ji-Hoon Park</h3>
+<p class="font-label text-white/80 text-sm">Chief Executive Officer</p>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-6 shadow-sm border border-outline-variant/30 relative">
+<span class="material-symbols-outlined absolute top-4 left-4 text-primary/20 text-4xl" style="font-size: 3rem;">format_quote</span>
+<p class="font-body text-on-surface leading-relaxed relative z-10 pt-4">
+                    "At Taeil C&amp;T, we believe in constructing more than just buildings; we construct possibilities. Our commitment to sustainable innovation and uncompromising quality drives every project we undertake. We look forward to continuing our journey of excellence with you."
+                </p>
+</div>
+</section>
+<!-- Mission & Vision (Bento-style Cards) -->
+<section class="space-y-4">
+<h2 class="font-headline text-2xl font-bold text-on-surface px-1">Core Identity</h2>
+<div class="grid grid-cols-1 gap-4">
+<!-- Mission Card -->
+<div class="bg-surface-container rounded-xl p-6 border border-surface-dim shadow-sm flex flex-col items-start gap-4">
+<div class="bg-primary/10 p-3 rounded-lg">
+<span class="material-symbols-outlined text-primary fill">flag</span>
+</div>
+<div>
+<h3 class="font-headline text-lg font-bold text-on-surface mb-2">Our Mission</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                            To deliver exceptional construction and technology solutions that enhance communities and respect the environment, ensuring long-term value for all stakeholders.
+                        </p>
+</div>
+</div>
+<!-- Vision Card -->
+<div class="bg-surface-container rounded-xl p-6 border border-surface-dim shadow-sm flex flex-col items-start gap-4">
+<div class="bg-primary/10 p-3 rounded-lg">
+<span class="material-symbols-outlined text-primary fill">visibility</span>
+</div>
+<div>
+<h3 class="font-headline text-lg font-bold text-on-surface mb-2">Our Vision</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                            To be the global leader in sustainable urban development, pioneering smart infrastructure that defines the cities of tomorrow.
+                        </p>
+</div>
+</div>
+<!-- Values Mini-Cards -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-low rounded-xl p-4 border border-surface-dim shadow-sm flex flex-col items-center text-center gap-2">
+<span class="material-symbols-outlined text-primary">verified</span>
+<h4 class="font-label font-semibold text-on-surface text-sm">Integrity</h4>
+</div>
+<div class="bg-surface-container-low rounded-xl p-4 border border-surface-dim shadow-sm flex flex-col items-center text-center gap-2">
+<span class="material-symbols-outlined text-primary">handshake</span>
+<h4 class="font-label font-semibold text-on-surface text-sm">Partnership</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Timeline / History -->
+<section class="space-y-6">
+<h2 class="font-headline text-2xl font-bold text-on-surface px-1">Our Journey</h2>
+<div class="relative border-l-2 border-primary/30 ml-3 space-y-8 pb-4">
+<!-- Timeline Item 1 -->
+<div class="relative pl-6">
+<div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-primary border-4 border-white shadow-sm"></div>
+<div class="bg-surface-container-lowest rounded-xl p-4 border border-outline-variant/40 shadow-sm">
+<span class="font-label text-primary font-bold text-xs tracking-wider uppercase mb-1 block">2023</span>
+<h3 class="font-headline text-on-surface font-semibold mb-1">Global Expansion</h3>
+<p class="font-body text-on-surface-variant text-sm">Opened new international headquarters in Singapore, expanding our smart city initiatives.</p>
+</div>
+</div>
+<!-- Timeline Item 2 -->
+<div class="relative pl-6">
+<div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-surface-variant border-4 border-white shadow-sm"></div>
+<div class="bg-surface-container-lowest rounded-xl p-4 border border-outline-variant/40 shadow-sm">
+<span class="font-label text-on-surface-variant font-bold text-xs tracking-wider uppercase mb-1 block">2018</span>
+<h3 class="font-headline text-on-surface font-semibold mb-1">Eco-Tech Integration</h3>
+<p class="font-body text-on-surface-variant text-sm">Launched our proprietary green building technology platform, setting new industry standards.</p>
+</div>
+</div>
+<!-- Timeline Item 3 -->
+<div class="relative pl-6">
+<div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-surface-variant border-4 border-white shadow-sm"></div>
+<div class="bg-surface-container-lowest rounded-xl p-4 border border-outline-variant/40 shadow-sm">
+<span class="font-label text-on-surface-variant font-bold text-xs tracking-wider uppercase mb-1 block">2010</span>
+<h3 class="font-headline text-on-surface font-semibold mb-1">Major Infrastructure Award</h3>
+<p class="font-body text-on-surface-variant text-sm">Recognized for excellence in national highway development projects.</p>
+</div>
+</div>
+<!-- Timeline Item 4 -->
+<div class="relative pl-6">
+<div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-surface-variant border-4 border-white shadow-sm"></div>
+<div class="bg-surface-container-lowest rounded-xl p-4 border border-outline-variant/40 shadow-sm">
+<span class="font-label text-on-surface-variant font-bold text-xs tracking-wider uppercase mb-1 block">1995</span>
+<h3 class="font-headline text-on-surface font-semibold mb-1">Foundation</h3>
+<p class="font-body text-on-surface-variant text-sm">Taeil C&amp;T established with a core focus on commercial construction.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-white/90 dark:bg-zinc-950/90 backdrop-blur-md fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 shadow-[0_-2px_10px_rgba(0,0,0,0.05)] border-t border-zinc-100 dark:border-zinc-800 rounded-t-md">
+<!-- Active Tab: Home (Assuming Company Intro acts as the Home/Main landing for this context) -->
+<button class="flex flex-col items-center justify-center text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 rounded-xl px-3 py-1 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined fill" data-icon="home">home</span>
+<span class="text-[10px] font-medium font-inter mt-1">Home</span>
+</button>
+<!-- Inactive Tab: Business -->
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150 px-3 py-1">
+<span class="material-symbols-outlined" data-icon="business_center">business_center</span>
+<span class="text-[10px] font-medium font-inter mt-1">Business</span>
+</button>
+<!-- Inactive Tab: Tech -->
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150 px-3 py-1">
+<span class="material-symbols-outlined" data-icon="precision_manufacturing">precision_manufacturing</span>
+<span class="text-[10px] font-medium font-inter mt-1">Tech</span>
+</button>
+<!-- Inactive Tab: PR -->
+<button class="flex flex-col items-center justify-center text-zinc-400 dark:text-zinc-500 hover:text-green-500 dark:hover:text-green-300 active:scale-95 transition-transform duration-150 px-3 py-1">
+<span class="material-symbols-outlined" data-icon="newspaper">newspaper</span>
+<span class="text-[10px] font-medium font-inter mt-1">PR</span>
+</button>
+</nav>
+</body></html>
